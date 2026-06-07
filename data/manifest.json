@@ -33,19 +33,19 @@
     }
   },
   "counts": {
-    "search": 4673,
+    "search": 4776,
     "details.github": 395,
-    "details.articles": 415,
+    "details.articles": 421,
     "details.news": 1299,
-    "details.skills": 2423,
+    "details.skills": 2520,
     "briefings": 76,
     "audio": 65
   },
   "latest": {
     "github": "github:vitejs/vite",
-    "article": "article:2026-06-05-63c2cd6d",
+    "article": "article:2026-06-06-c9a1d82e",
     "news": "news:2026-06-07-61b26b36",
-    "skill": "skill:summary",
+    "skill": "skill:eyes",
     "briefing": "briefing:2026-06-07",
     "audio": "audio:2026-06-07"
   },
