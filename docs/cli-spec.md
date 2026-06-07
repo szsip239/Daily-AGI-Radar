@@ -98,7 +98,6 @@ The CLI starts from `manifest.json`. Logical feed names:
 - `details.articles`
 - `details.news`
 - `details.skills`
-- `details.openclaw_releases`
 - `briefings`
 - `audio`
 
@@ -130,7 +129,6 @@ Allowed `type` values:
 - `article`
 - `news`
 - `skill`
-- `openclaw_release`
 - `briefing`
 - `audio`
 
@@ -144,7 +142,6 @@ Supported handle forms:
 - `article:YYYY-MM-DD-shorthash`
 - `news:YYYY-MM-DD-shorthash`
 - `skill:<skillhub-slug-or-stable-key>`
-- `openclaw_release:<version-or-stable-key>`
 - `briefing:YYYY-MM-DD`
 - `briefing:latest`
 - `audio:YYYY-MM-DD`

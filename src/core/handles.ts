@@ -11,7 +11,6 @@ const SUPPORTED = new Set([
   "article",
   "news",
   "skill",
-  "openclaw_release",
   "briefing",
   "audio",
 ]);
@@ -44,8 +43,6 @@ export function feedForType(type: string): string {
       return "details.news";
     case "skill":
       return "details.skills";
-    case "openclaw_release":
-      return "details.openclaw_releases";
     case "briefing":
       return "briefings";
     case "audio":

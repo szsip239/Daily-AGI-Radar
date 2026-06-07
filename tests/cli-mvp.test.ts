@@ -113,7 +113,6 @@ function fixtureData(_baseUrl: string) {
       "details.articles": { url: "/articles.jsonl" },
       "details.news": { url: "/news.jsonl" },
       "details.skills": { url: "/skills.jsonl" },
-      "details.openclaw_releases": { url: "/openclaw.jsonl" },
       briefings: { url: "/briefings.jsonl" },
       audio: { url: "/audio.jsonl" },
     },
@@ -148,7 +147,6 @@ function fixtureData(_baseUrl: string) {
       ]),
       "/articles.jsonl": "",
       "/news.jsonl": "",
-      "/openclaw.jsonl": "",
       "/briefings.jsonl": jsonl([{ handle: "briefing:2026-06-07", signal_date: "2026-06-07" }]),
       "/audio.jsonl": jsonl([
         {
