@@ -8,20 +8,10 @@
 
 使用方式有两种：
 
-1. 通过 `agi-radar` CLI，让你的 agent、脚本或 harness 工具自动拉取、搜索这些资料。
-2. 打开飞书知识库直接浏览：[共享知识空间](https://ask.feishu.cn/shared-space/7647524040143342540) 或 [知识库页面](https://dcn3dkdkiman.feishu.cn/wiki/I7o0wZ2AYiWo3MkOCZTcuAwSnZf)。
+1. agent使用：通过 `agi-radar` CLI，让你的 agent、脚本或 harness 工具自动拉取、搜索这些资料。
+2. 人类使用：打开飞书知识库直接浏览：[共享知识空间](https://ask.feishu.cn/shared-space/7647524040143342540) 或 [知识库页面](https://dcn3dkdkiman.feishu.cn/wiki/I7o0wZ2AYiWo3MkOCZTcuAwSnZf)。
 
 两种方式读取的是同一批每日沉淀内容：GitHub 项目、精选文章、SkillHub skills、AI 新闻、Markdown 日报和 MP3 播客。
-
-## 这个项目解决什么
-
-Daily AGI Radar 是一个公开的 AI 信号库。它不是新闻站，也不是又一个收藏夹，而是把每天已经筛选、整理、生成日报的 AI 信息流变成可搜索、可拉取、可共创的公开资料。
-
-它适合三类使用者：
-
-- 想持续了解 AI 项目、skills、文章和行业动态的人。
-- 想让自己的 agent 自动查询资料、补充上下文、生成学习摘要的人。
-- 想把自己发现的好项目和好文章推荐进公共资料库的人。
 
 ## 数据从哪里来
 
@@ -157,15 +147,5 @@ https://raw.githubusercontent.com/szsip239/Daily-AGI-Radar/main/data/manifest.js
 - 音频元数据：`data/audio.jsonl.gz`
 - MP3 文件：按月份发布到 GitHub Releases，例如 `audio-2026-06`
 
-MP3 不直接提交到 Git 仓库，避免仓库体积持续膨胀。
-
-## 本地开发
-
-```bash
-npm install
-npm test
-npm run build
-node dist/cli.js status --json
-```
 
 CLI 实现约定见 [docs/cli-spec.md](docs/cli-spec.md)。
