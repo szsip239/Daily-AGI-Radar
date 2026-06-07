@@ -6,18 +6,26 @@ It publishes curated AI/AGI projects, articles, news, skills, briefings, and aud
 
 ## Install
 
+Use directly with `npx`:
+
+```bash
+npx agi-radar@latest status --json
+npx agi-radar@latest search "agent memory" --json
+```
+
+Or install globally:
+
+```bash
+npm install -g agi-radar
+agi-radar status --json
+```
+
 During local development:
 
 ```bash
 npm install
 npm test
 node dist/cli.js status --json
-```
-
-Future npm usage:
-
-```bash
-npx agi-radar@latest status --json
 ```
 
 ## Commands
@@ -43,6 +51,14 @@ https://raw.githubusercontent.com/szsip239/Daily-AGI-Radar/main/data/manifest.js
 
 MP3 files are not committed to Git. Audio assets should be published through GitHub Releases, with metadata recorded in the public audio feed.
 
+The default manifest includes:
+
+- Search feed: `data/search.jsonl.gz`
+- Detail feeds: `data/details/*.jsonl.gz`
+- Daily briefings: `reports/daily/YYYY-MM-DD.md`
+- Audio metadata: `data/audio.jsonl.gz`
+- MP3 assets: monthly GitHub Releases such as `audio-2026-06`
+
 ## Submissions
 
 Public submissions are review candidates, not direct feed writes.
@@ -63,4 +79,3 @@ npm run build
 ```
 
 The CLI implementation contract is in [docs/cli-spec.md](docs/cli-spec.md).
-

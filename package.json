@@ -1,12 +1,35 @@
 {
   "name": "agi-radar",
   "version": "0.1.0",
+  "description": "Daily AGI Radar public data CLI for AI projects, articles, news, skills, briefings, and audio.",
   "type": "module",
   "bin": {
     "agi-radar": "dist/cli.js"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szsip239/Daily-AGI-Radar.git"
+  },
+  "homepage": "https://github.com/szsip239/Daily-AGI-Radar#readme",
+  "bugs": {
+    "url": "https://github.com/szsip239/Daily-AGI-Radar/issues"
+  },
+  "keywords": [
+    "ai",
+    "agi",
+    "radar",
+    "cli",
+    "agents",
+    "search"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm test",
     "test": "npm run build && vitest run",
     "test:watch": "vitest"
   },

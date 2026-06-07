@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-07T07:07:13.225Z",
+  "repository": "https://github.com/szsip239/Daily-AGI-Radar",
+  "feeds": {
+    "search": {
+      "url": "search.jsonl",
+      "gz_url": "search.jsonl.gz"
+    },
+    "details.github": {
+      "url": "details/github.jsonl",
+      "gz_url": "details/github.jsonl.gz"
+    },
+    "details.articles": {
+      "url": "details/articles.jsonl",
+      "gz_url": "details/articles.jsonl.gz"
+    },
+    "details.news": {
+      "url": "details/news.jsonl",
+      "gz_url": "details/news.jsonl.gz"
+    },
+    "details.skills": {
+      "url": "details/skills.jsonl",
+      "gz_url": "details/skills.jsonl.gz"
+    },
+    "details.openclaw_releases": {
+      "url": "details/openclaw_releases.jsonl",
+      "gz_url": "details/openclaw_releases.jsonl.gz"
+    },
+    "briefings": {
+      "url": "briefings.jsonl",
+      "gz_url": "briefings.jsonl.gz"
+    },
+    "audio": {
+      "url": "audio.jsonl",
+      "gz_url": "audio.jsonl.gz"
+    }
+  },
+  "counts": {
+    "search": 4719,
+    "details.github": 395,
+    "details.articles": 415,
+    "details.news": 1299,
+    "details.skills": 2423,
+    "details.openclaw_releases": 46,
+    "briefings": 76,
+    "audio": 65
+  },
+  "latest": {
+    "github": "github:vitejs/vite",
+    "article": "article:2026-06-05-63c2cd6d",
+    "news": "news:2026-06-07-61b26b36",
+    "skill": "skill:summary",
+    "openclaw_release": "openclaw_release:2026.6.1",
+    "briefing": "briefing:2026-06-07",
+    "audio": "audio:2026-06-07"
+  },
+  "policy": {
+    "excluded_fields": [
+      "备注",
+      "附件"
+    ],
+    "external_articles": "Public feed includes source links and curated summaries, not third-party full text.",
+    "audio_storage": "MP3 files are stored as monthly GitHub Release assets."
+  }
+}
