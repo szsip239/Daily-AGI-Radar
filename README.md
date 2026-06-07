@@ -1,229 +1,171 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/szsip239/Daily-AGI-Radar/main/assets/daily-agi-radar-hero.png" alt="Daily AGI Radar community discovering AI projects and skills" width="100%">
+  <img src="https://raw.githubusercontent.com/szsip239/Daily-AGI-Radar/main/assets/daily-agi-radar-workflow.png" alt="Daily AGI Radar 每日 AI 雷达流程架构图" width="100%">
 </p>
 
-<p align="center">
-  <a href="https://github.com/szsip239/Daily-AGI-Radar/blob/main/README.zh-CN.md">中文 README</a>
-</p>
+# Daily AGI Radar 每日 AI 雷达
 
-# Daily AGI Radar
+你是否有这样的困扰：每天想了解最新的 AI 动态和项目动态，互联网上却有太多噪音；想学习 AI 相关文章，不知道哪些值得读；想开发一个项目时，又要去 GitHub 上搜半天。现在，我把自己已经每天固定爬取的 GitHub 热门项目、WayToAGI 的精选博客文章、SkillHub 上的热门 skill，以及每天基于这些信息生成的日报和 MP3 播客，都开源到本项目中。
 
-Daily AGI Radar is a public AI signal library for people and agents who want to keep up with useful AI projects, agent skills, articles, news, daily briefings, and audio summaries.
+使用方式有两种：
 
-The goal is simple: make it easier for everyone to discover current GitHub projects and practical skills, learn how AI tools are evolving, and improve their own AI workflows through a shared, searchable knowledge feed.
+1. 通过 `agi-radar` CLI，让你的 agent、脚本或 harness 工具自动拉取、搜索这些资料。
+2. 打开飞书知识库直接浏览：[共享知识空间](https://ask.feishu.cn/shared-space/7647524040143342540) 或 [知识库页面](https://dcn3dkdkiman.feishu.cn/wiki/I7o0wZ2AYiWo3MkOCZTcuAwSnZf)。
 
-The `agi-radar` CLI reads public feeds over HTTPS. It supports status checks, local sync, search, detail lookup, audio download, and URL-only submissions.
+两种方式读取的是同一批每日沉淀内容：GitHub 项目、精选文章、SkillHub skills、AI 新闻、Markdown 日报和 MP3 播客。
 
-## How It Works
+## 这个项目解决什么
 
-```mermaid
-flowchart LR
-  subgraph Sources["Daily sources"]
-    GH["GitHub Trending\nAI/AGI projects"]
-    SH["SkillHub\nagent skills"]
-    WA["WayToAGI\narticles"]
-    AB["AIBase\nAI news"]
-    CS["Community Issues\nproject/article tips"]
-  end
+Daily AGI Radar 是一个公开的 AI 信号库。它不是新闻站，也不是又一个收藏夹，而是把每天已经筛选、整理、生成日报的 AI 信息流变成可搜索、可拉取、可共创的公开资料。
 
-  subgraph Pipeline["Daily curation pipeline"]
-    FETCH["Fetch"]
-    ENRICH["AI enrichment\ncategory, summary, recommendation"]
-    REVIEW["Feishu Base\nreview and history"]
-    BRIEF["Daily briefing\nMarkdown + MP3"]
-    EXPORT["Public feed export\nJSONL + gzip"]
-    CHECK["Publish check\nGit + Release consistency"]
-  end
+它适合三类使用者：
 
-  subgraph GitHub["Public GitHub repository"]
-    DATA["data/*.jsonl.gz\nsearch + detail feeds"]
-    REPORTS["reports/daily/*.md\nbriefings"]
-    AUDIO["GitHub Releases\nmonthly MP3 assets"]
-  end
+- 想持续了解 AI 项目、skills、文章和行业动态的人。
+- 想让自己的 agent 自动查询资料、补充上下文、生成学习摘要的人。
+- 想把自己发现的好项目和好文章推荐进公共资料库的人。
 
-  subgraph Users["Users and agents"]
-    CLI["agi-radar CLI\nnpx / npm install"]
-    SEARCH["Search, get, sync,\ndownload audio"]
-    FEEDBACK["Open Issues\nrecommend projects/articles"]
-  end
+## 数据从哪里来
 
-  GH --> FETCH
-  SH --> FETCH
-  WA --> FETCH
-  AB --> FETCH
-  CS --> REVIEW
-  FETCH --> ENRICH --> REVIEW --> BRIEF --> EXPORT --> CHECK
-  CHECK --> DATA
-  CHECK --> REPORTS
-  CHECK --> AUDIO
-  DATA --> CLI
-  REPORTS --> CLI
-  AUDIO --> CLI
-  CLI --> SEARCH
-  FEEDBACK --> CS
-```
+目前每日管线会固定处理这些来源：
 
-## Current Public Dataset
+| 数据源 | 内容 |
+| --- | --- |
+| GitHub Trending / GitHub 搜索 | AI/AGI 相关热门项目、增长项目、工具项目 |
+| WayToAGI | 精选博客文章、教程、观点和实践内容 |
+| SkillHub | 热门 agent skills，包含能力、安装量、增长等信号 |
+| AI 新闻源 | 每日 AI 新闻、产品动态、行业事件 |
+| 社区 Issue 推荐 | 用户推荐的 GitHub 项目、SkillHub skill 和文章候选 |
 
-As of the 2026-06-07 public manifest:
+## 当前已经有多少数据
 
-| Feed | Count | What It Contains |
+截至 2026-06-07 的公开 manifest：
+
+| Feed | 数量 | 内容 |
 | --- | ---: | --- |
-| Search records | 4,776 | Compact records for fast CLI search across all public signals |
-| GitHub projects | 395 | Trending AI/AGI repositories with stars, growth, category, summary, recommendation |
-| Skills | 2,520 | SkillHub skills with install signals, category, capability summary, recommendation |
-| Articles | 421 | Curated articles with source URL, author, date, category, summary, recommendation score |
-| News | 1,299 | AI news items with source URL, date, category, and curated summary |
-| Daily briefings | 76 | Markdown daily reports in `reports/daily/` |
-| Audio briefings | 65 | MP3 metadata pointing to monthly GitHub Release assets |
+| 搜索记录 | 4,776 | 用于 CLI 快速搜索的紧凑记录，覆盖所有公开信号 |
+| GitHub 项目 | 395 | AI/AGI 趋势仓库，含 stars、增长、分类、总结、推荐理由 |
+| Skills | 2,520 | SkillHub skills，含安装量、分类、能力总结、推荐理由 |
+| 文章 | 421 | 精选文章，含原文链接、作者、日期、分类、摘要、推荐分 |
+| 新闻 | 1,299 | AI 新闻，含来源链接、日期、分类、内容整理 |
+| 每日简报 | 76 | `reports/daily/` 下的 Markdown 日报 |
+| 音频日报 | 65 | MP3 元数据，音频文件保存在按月划分的 GitHub Releases |
 
-The live counts are available from the public manifest and from a full sync:
+实时数量可以通过完整同步查看：
 
 ```bash
 npx agi-radar@latest sync --all --json
 ```
 
-## Daily Update Cycle
+## 每天怎么更新
 
-The public repository is updated by a daily local pipeline:
+本项目的数据由本地日报管线每天同步到 GitHub：
 
-1. Fetch GitHub Trending projects, SkillHub skills, WayToAGI articles, and AIBase news.
-2. Add AI-enriched fields such as category, summary, recommendation, and ranking signals.
-3. Write reviewed records into Feishu Base for deduplication and historical tracking.
-4. Generate the daily Markdown briefing and MP3 audio briefing.
-5. Export public JSONL feeds and compressed `.gz` files.
-6. Commit `data/` and `reports/` to GitHub, upload MP3 files to monthly GitHub Releases, then verify local and remote data match.
+1. 抓取 GitHub 项目、WayToAGI 文章、SkillHub skills 和 AI 新闻。
+2. 用 AI 补充分类、摘要、推荐理由和质量信号。
+3. 写入飞书 Base，用于审核、去重和历史记录。
+4. 基于当天内容生成 Markdown 日报和 MP3 播客。
+5. 导出公开 JSONL feed 和 `.gz` 压缩文件。
+6. 提交 `data/`、`reports/` 到 GitHub，把 MP3 上传到 GitHub Releases。
+7. 发布后校验本地与 GitHub 远端数据、日报和音频资产是否一致。
 
-## Record Fields
+## 数据字段长什么样
 
-The search feed is intentionally compact so agents can search quickly:
+搜索 feed 只保留适合快速检索的字段：
 
 ```text
 handle, type, title, url, summary, source, signal_date,
 category, rank_signals, detail_feed, detail_key
 ```
 
-Detail feeds keep the full public record:
+详情 feed 保留完整公开记录：
 
-| Type | Stable Handle | Important Fields |
+| 类型 | 稳定 handle | 关键字段 |
 | --- | --- | --- |
-| GitHub project | `github:owner/repo` | project URL, author, category, stars, star growth, trend type, README summary, recommendation |
-| Skill | `skill:slug` | skill URL, category, capability summary, installs, install growth, stars, recommendation |
-| Article | `article:date-id` | source URL, author, article date, category, curated summary, recommendation score |
-| News | `news:date-id` | source URL, date, category, curated summary, source |
-| Briefing | `briefing:YYYY-MM-DD` | daily Markdown URL, local report path, summary |
-| Audio | `audio:YYYY-MM-DD` | MP3 Release URL, file name, release tag, file size |
+| GitHub 项目 | `github:owner/repo` | 项目链接、作者、分类、stars、stars 增长、趋势类型、README 总结、推荐理由 |
+| Skill | `skill:slug` | skill 链接、分类、能力总结、安装量、安装增长、stars、推荐理由 |
+| 文章 | `article:date-id` | 原文链接、作者、文章日期、分类、摘要、推荐程度 |
+| 新闻 | `news:date-id` | 来源链接、日期、分类、内容整理、来源 |
+| 简报 | `briefing:YYYY-MM-DD` | 日报 Markdown URL、本地路径、摘要 |
+| 音频 | `audio:YYYY-MM-DD` | MP3 Release URL、文件名、release tag、文件大小 |
 
-Every detail record also includes a `fields` object containing the original public field names used by the curation pipeline.
+每条详情记录还包含 `fields` 对象，保留筛选管线里的原始公开字段名，方便用户或自己的 LLM 做二次整理。
 
-## How People Use It
+## 用户怎么获取
 
-Use it without installing anything permanently:
+不需要 clone 仓库，也不需要永久安装，直接用 `npx`：
 
 ```bash
 npx agi-radar@latest search "agent memory" --json
 npx agi-radar@latest get github:owner/repo --json
+npx agi-radar@latest get briefing:latest --json
 npx agi-radar@latest get audio:latest --download ./daily.mp3
 ```
 
-Or install once:
+也可以全局安装：
 
 ```bash
 npm install -g agi-radar
 agi-radar sync --json
 agi-radar search "Claude Code skills" --limit 10 --json
-agi-radar get briefing:latest --json
+agi-radar get audio:latest --download ./daily-agi-radar.mp3
 ```
 
-Use `--json` when calling from a harness agent, script, or workflow. Leave it off for a more human-readable terminal output.
+给 agent、脚本或自动化流程用时，建议加 `--json`。人直接在终端看，可以不加。
 
-## How To Co-Create
-
-Daily AGI Radar is meant to become a shared learning resource. Public submissions are review candidates, not direct feed writes.
-
-You can help by opening an issue to recommend:
-
-- GitHub projects worth tracking
-- articles worth reading and summarizing
-
-The CLI can also create review issues for supported URL types:
-
-```bash
-agi-radar submit github https://github.com/owner/repo
-agi-radar submit skill https://skillhub.cn/skills/example
-```
-
-Submissions are reviewed before they enter public feeds. Please include the URL and a short reason why it is useful for AI builders or learners.
-
-## Command Reference
-
-Use directly with `npx`:
-
-```bash
-npx agi-radar@latest status --json
-npx agi-radar@latest search "agent memory" --json
-```
-
-Or install globally:
-
-```bash
-npm install -g agi-radar
-agi-radar status --json
-```
-
-During local development:
-
-```bash
-npm install
-npm test
-node dist/cli.js status --json
-```
+## 命令速查
 
 ```bash
 agi-radar status --json
-agi-radar config list --json
-agi-radar sync --json
-agi-radar search "agent memory" --json
-agi-radar get github:owner/repo --json
-agi-radar get audio:latest --download ./daily.mp3
-agi-radar submit github https://github.com/owner/repo
-agi-radar submit skill https://skillhub.cn/skills/example
-```
-
-Useful examples:
-
-```bash
-agi-radar search "Claude Code skills" --limit 10 --json
-agi-radar search "agent workflow automation" --no-cache --json
+agi-radar sync --all --json
+agi-radar search "agent workflow automation" --limit 10 --json
 agi-radar get github:owner/repo --json
 agi-radar get briefing:latest --json
 agi-radar get audio:latest --download ./daily-agi-radar.mp3
 ```
 
-## Public Data
+提交候选内容：
 
-The CLI starts from:
+```bash
+agi-radar submit github https://github.com/owner/repo
+agi-radar submit skill https://skillhub.cn/skills/example
+```
+
+## 怎么共创反馈
+
+Daily AGI Radar 希望成为一个共享学习资料库。公开投稿会作为候选内容进入审核流程，不会直接写入公开 feed。
+
+欢迎通过 Issue 推荐：
+
+- 值得跟踪的 GitHub 项目
+- 值得阅读和总结的文章
+- 来自 `skillhub.cn` 的 agent skill
+
+提交时请附上 URL，并简单说明它为什么对 AI 构建者或学习者有价值。后续流水线会负责拉取、评估、自动打标、人工审核和入库。
+
+## 公开数据
+
+CLI 默认从这里读取 manifest：
 
 ```text
 https://raw.githubusercontent.com/szsip239/Daily-AGI-Radar/main/data/manifest.json
 ```
 
-MP3 files are not committed to Git. Audio assets should be published through GitHub Releases, with metadata recorded in the public audio feed.
+默认公开数据包括：
 
-The default manifest includes:
+- 搜索 feed：`data/search.jsonl.gz`
+- 详情 feed：`data/details/*.jsonl.gz`
+- 每日简报：`reports/daily/YYYY-MM-DD.md`
+- 音频元数据：`data/audio.jsonl.gz`
+- MP3 文件：按月份发布到 GitHub Releases，例如 `audio-2026-06`
 
-- Search feed: `data/search.jsonl.gz`
-- Detail feeds: `data/details/*.jsonl.gz`
-- Daily briefings: `reports/daily/YYYY-MM-DD.md`
-- Audio metadata: `data/audio.jsonl.gz`
-- MP3 assets: monthly GitHub Releases such as `audio-2026-06`
+MP3 不直接提交到 Git 仓库，避免仓库体积持续膨胀。
 
-## Development
+## 本地开发
 
 ```bash
 npm install
 npm test
 npm run build
+node dist/cli.js status --json
 ```
 
-The CLI implementation contract is in [docs/cli-spec.md](docs/cli-spec.md).
+CLI 实现约定见 [docs/cli-spec.md](docs/cli-spec.md)。
