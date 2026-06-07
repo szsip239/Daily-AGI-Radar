@@ -5,7 +5,7 @@
 # Daily AGI Radar 每日 AI 雷达
 
 你是否有这样的困扰：每天想了解最新的 AI 动态和项目动态，互联网上却有太多噪音；想学习 AI 相关文章，不知道哪些值得读；想开发一个项目时，又要去 GitHub 上搜半天。现在，我把自己已经每天固定爬取的 GitHub 热门项目、WayToAGI 的精选博客文章、SkillHub 上的热门 skill，以及每天基于这些信息生成的日报和 MP3 播客，都开源到本项目中。
-同时，##欢迎使用agi-radar submit命令提交你希望入库的github项目或者skills##
+同时，欢迎使用`agi-radar submit`命令提交你希望入库的github项目或者skills
 
 使用方式有两种：
 
