@@ -5,6 +5,7 @@
 # Daily AGI Radar 每日 AI 雷达
 
 你是否有这样的困扰：每天想了解最新的 AI 动态和项目动态，互联网上却有太多噪音；想学习 AI 相关文章，不知道哪些值得读；想开发一个项目时，又要去 GitHub 上搜半天。现在，我把自己已经每天固定爬取的 GitHub 热门项目、WayToAGI 的精选博客文章、SkillHub 上的热门 skill，以及每天基于这些信息生成的日报和 MP3 播客，都开源到本项目中。
+同时，##欢迎使用agi-radar submit命令提交你希望入库的github项目或者skills##
 
 使用方式有两种：
 
@@ -31,9 +32,9 @@
 
 | 类型 | 采集范围 | 入库条件 | 说明 |
 | --- | --- | --- | --- |
-| GitHub 项目 | 抓取 GitHub Trending 的 daily、weekly、monthly 三个榜单，按 `owner/repo` 去重合并；同一项目会合并趋势类型，并保留最大的 `stars增加`；同时抓取 README 前 3000 字作为 AI 增强上下文。 | 如果是飞书 Base 里的新项目，必须完成 AI 增强，且 `分类`、`项目readme总结` 非空；否则跳过。当前没有额外写死的 star 下限。 | 已存在项目不会重复入库，但会用于记录当日 star 增长和日报展示。 |
-| WayToAGI 文章 | 优先抓取 WayToAGI 飞书 Wiki 的近 7 日更新；如果 Wiki 抓取失败，则回退到 `waytoagi.com` 近 7 日博客；再合并手动补充列表；按 URL 或标题去重。 | 如果是新文章，必须完成 AI 增强，且 `分类`、`文章总结` 非空；否则跳过。`推荐程度` 会生成 1-5 分，存在时写入，但当前不是硬过滤阈值。 | Wiki 文档会尽量抓取正文摘要供 AI 总结使用，单次最多抓取 20 篇正文摘要。 |
-| SkillHub Skills | 优先抓取 SkillHub API 综合排序前 200 条，按 `slug` 去重；SkillHub 无数据时才用 ClawHub 搜索和详情接口兜底；公开链接统一归一化为 `https://skillhub.cn/skills/{slug}`。 | 如果是新 skill，安装量必须 `> 1500`，并且完成 AI 增强，且 `分类`、`技能能力总结` 非空；否则跳过。 | 已存在 skill 不重复入库，只在发现旧链接不规范时修正技能地址。 |
+| GitHub 项目 | 抓取 GitHub Trending 的 daily、weekly、monthly 三个榜单，按 `owner/repo` 去重合并；同一项目会合并趋势类型，并保留最大的 `stars增加`；同时抓取 README 前 3000 字作为 AI 增强上下文。 | 如果是新项目，完成 AI 增强后入库。 | 已存在项目不会重复入库，但会用于记录当日 star 增长和日报展示。 |
+| WayToAGI 文章 | 优先抓取 WayToAGI 飞书 Wiki 的近 7 日更新，按 URL 或标题去重。 | 如果是新文章，完成 AI 增强后入库。 | Wiki 文档会抓取正文摘要供 AI 总结使用。 |
+| SkillHub Skills | 优先抓取 SkillHub API 综合排序前 200 条，按 `slug` 去重。 | 如果是新 skill，安装量必须 `> 1500`，完成 AI 增强后入库。 | 已存在 skill 不重复入库，只在发现旧链接不规范时修正地址。 |
 
 ## 当前已经有多少数据
 
