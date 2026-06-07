@@ -1,5 +1,5 @@
 name: Daily AGI Radar Submission
-description: Recommend a GitHub project or SkillHub skill for review.
+description: Recommend a GitHub project, SkillHub skill, or article for review.
 title: "[submission] "
 labels:
   - submission
@@ -11,17 +11,18 @@ body:
       options:
         - github
         - skill
+        - article
     validations:
       required: true
   - type: input
     id: url
     attributes:
       label: URL
-      description: GitHub repository URL or skillhub.cn skill URL.
+      description: GitHub repository URL, skillhub.cn skill URL, or article URL.
       placeholder: https://github.com/owner/repo
     validations:
       required: true
   - type: markdown
     attributes:
       value: |
-        Submissions are reviewed before entering public feeds. Article and news submissions are not accepted in the MVP.
+        Submissions are reviewed before entering public feeds. News submissions are not accepted in the MVP.
