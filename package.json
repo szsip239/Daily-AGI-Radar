@@ -1,0 +1,26 @@
+{
+  "name": "agi-radar",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "agi-radar": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "commander": "^14.0.2",
+    "minisearch": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.15"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

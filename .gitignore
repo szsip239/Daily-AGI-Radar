@@ -1,0 +1,15 @@
+.DS_Store
+article/
+.env
+.env.local
+output/
+wiki/
+config/
+.claude/
+.skill-invocations.log
+__pycache__/
+*.pyc
+/tmp/
+node_modules/
+dist/
+coverage/
