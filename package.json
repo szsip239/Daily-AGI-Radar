@@ -1,6 +1,6 @@
 {
   "name": "agi-radar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Daily AGI Radar public data CLI for AI projects, articles, news, skills, briefings, and audio.",
   "type": "module",
   "bin": {

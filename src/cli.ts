@@ -22,7 +22,7 @@ type CommonOptions = {
   noCache?: boolean;
 };
 
-const VERSION = "0.1.0";
+const VERSION = "0.1.1";
 
 function feedBaseUrl(manifestUrl: string): string {
   try {
