@@ -104,6 +104,34 @@ function fixtureData(_baseUrl: string) {
       detail_feed: "details.skills",
       detail_key: "demo-skill",
     },
+    {
+      handle: "article:2026-06-07-ai-video",
+      type: "article",
+      title: "个人觉得用AI剪视频最好的方法，求你别再手动剪视频了！Codex一句话搞定。",
+      url: "https://waytoagi.feishu.cn/wiki/EwUKwypuliYYlmkXR9OcOYt3nQb",
+      summary: "用 Codex 搭配 Remotion 生成可迭代的动态图形内容，把创作流程代码化。",
+      source: "waytoagi",
+      signal_date: "2026-06-07",
+      detail_feed: "details.articles",
+      detail_key: "2026-06-07-ai-video",
+      category: "内容创作",
+      tags: ["创作流程"],
+      search_keywords: ["内容创作", "Codex", "Remotion"],
+      search_aliases: ["AI剪视频", "视频自动化", "短视频制作", "自动剪辑", "视频剪辑", "动效视频"],
+    },
+    {
+      handle: "article:2026-06-07-ai-research",
+      type: "article",
+      title: "AI 研究工作流整理",
+      url: "https://waytoagi.feishu.cn/wiki/research",
+      summary: "使用 agent 自动化整理论文和知识库。",
+      source: "waytoagi",
+      signal_date: "2026-06-07",
+      detail_feed: "details.articles",
+      detail_key: "2026-06-07-ai-research",
+      category: "AI 研究",
+      tags: ["自动化", "知识库"],
+    },
   ];
   const search = jsonl(searchRecords);
   const manifest = {
@@ -145,7 +173,21 @@ function fixtureData(_baseUrl: string) {
           url: "https://skillhub.cn/skills/demo-skill",
         },
       ]),
-      "/articles.jsonl": "",
+      "/articles.jsonl": jsonl([
+        {
+          handle: "article:2026-06-07-ai-video",
+          detail_key: "2026-06-07-ai-video",
+          title: "个人觉得用AI剪视频最好的方法，求你别再手动剪视频了！Codex一句话搞定。",
+          url: "https://waytoagi.feishu.cn/wiki/EwUKwypuliYYlmkXR9OcOYt3nQb",
+          full_summary: "Full article detail record",
+        },
+        {
+          handle: "article:2026-06-07-ai-research",
+          detail_key: "2026-06-07-ai-research",
+          title: "AI 研究工作流整理",
+          url: "https://waytoagi.feishu.cn/wiki/research",
+        },
+      ]),
       "/news.jsonl": "",
       "/briefings.jsonl": jsonl([{ handle: "briefing:2026-06-07", signal_date: "2026-06-07" }]),
       "/audio.jsonl": jsonl([
@@ -256,7 +298,7 @@ describe("agi-radar MVP CLI", () => {
 
     const sync = await runCli(["sync", "--json"], env);
     expect(sync.status).toBe(0);
-    expect(sync.json.data.feeds).toEqual([{ name: "search", status: "updated", records: 2 }]);
+    expect(sync.json.data.feeds).toEqual([{ name: "search", status: "updated", records: 4 }]);
     expect(requests.some((request) => request.path === "/search.jsonl.gz")).toBe(true);
 
     const syncAll = await runCli(["sync", "--all", "--json"], env);
@@ -275,7 +317,7 @@ describe("agi-radar MVP CLI", () => {
 
     const sync = await runCli(["sync", "--json"], env);
     expect(sync.status).toBe(0);
-    expect(sync.json.data.feeds[0].records).toBe(2);
+    expect(sync.json.data.feeds[0].records).toBe(4);
   });
 
   it("searches brief projections and full detail records", async () => {
@@ -299,6 +341,21 @@ describe("agi-radar MVP CLI", () => {
 
     const limited = await runCli(["search", "agent", "--limit", "500", "--json"], env);
     expect(limited.json.data.limit).toBe(50);
+  });
+
+  it("recalls related Chinese article titles from broad lexical queries", async () => {
+    const data = fixtureData("http://127.0.0.1");
+    const { baseUrl } = await startServer(data.routes);
+    const { env } = tempEnv(baseUrl);
+
+    const result = await runCli(["search", "短视频 剪辑 自动化", "--brief", "--json"], env);
+    expect(result.status).toBe(0);
+    expect(result.json.data.results[0]).toMatchObject({
+      handle: "article:2026-06-07-ai-video",
+      type: "article",
+    });
+    expect(result.json.data.results[0].rank_reason).toContain("alias_overlap");
+    expect(result.json.data.results[0].matched_terms).toContain("短视频");
   });
 
   it("gets resources by stable handle and rejects temporary indexes", async () => {
