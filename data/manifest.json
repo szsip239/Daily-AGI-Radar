@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-08T00:00:00.000Z",
+  "generated_at": "2026-06-09T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 4811,
-    "details.github": 398,
-    "details.articles": 421,
-    "details.news": 1299,
-    "details.skills": 2550,
-    "briefings": 77,
-    "audio": 66
+    "search": 4858,
+    "details.github": 402,
+    "details.articles": 430,
+    "details.news": 1320,
+    "details.skills": 2561,
+    "briefings": 78,
+    "audio": 67
   },
   "latest": {
-    "github": "github:opencv/opencv",
-    "article": "article:2026-06-06-c9a1d82e",
-    "news": "news:2026-06-08-61b26b36",
-    "skill": "skill:biga",
-    "briefing": "briefing:2026-06-08",
-    "audio": "audio:2026-06-08"
+    "github": "github:phuryn/pm-skills",
+    "article": "article:2026-06-08-0e3ed58b",
+    "news": "news:2026-06-09-2c9a73ec",
+    "skill": "skill:chinese-office-automation",
+    "briefing": "briefing:2026-06-09",
+    "audio": "audio:2026-06-09"
   },
   "policy": {
     "excluded_fields": [
