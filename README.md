@@ -10,7 +10,7 @@
 使用方式有两种：
 
 1. agent使用：通过 `agi-radar` CLI，让你的 agent、脚本或 harness 工具自动拉取、搜索这些资料。
-2. 人类使用：打开飞书知识库直接浏览：[共享知识空间](https://ask.feishu.cn/shared-space/7647524040143342540) 或 [知识库页面](https://dcn3dkdkiman.feishu.cn/wiki/I7o0wZ2AYiWo3MkOCZTcuAwSnZf)。
+2. 人类使用：打开飞书知识库直接浏览：[知识库页面](https://dcn3dkdkiman.feishu.cn/wiki/I7o0wZ2AYiWo3MkOCZTcuAwSnZf)。
 
 两种方式读取的是同一批每日沉淀内容：GitHub 项目、精选文章、SkillHub skills、AI 新闻、Markdown 日报和 MP3 播客。
 
