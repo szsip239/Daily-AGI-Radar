@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-10T00:00:00.000Z",
+  "generated_at": "2026-06-11T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 4909,
-    "details.github": 404,
-    "details.articles": 436,
-    "details.news": 1341,
-    "details.skills": 2581,
-    "briefings": 79,
-    "audio": 68
+    "search": 4953,
+    "details.github": 406,
+    "details.articles": 440,
+    "details.news": 1362,
+    "details.skills": 2596,
+    "briefings": 80,
+    "audio": 69
   },
   "latest": {
-    "github": "github:maziyarpanahi/openmed",
-    "article": "article:2026-06-09-17896640",
-    "news": "news:2026-06-10-2c9a73ec",
-    "skill": "skill:videowei-copywriter",
-    "briefing": "briefing:2026-06-10",
-    "audio": "audio:2026-06-10"
+    "github": "github:apple/container",
+    "article": "article:2026-06-10-556e2e94",
+    "news": "news:2026-06-11-2c9a73ec",
+    "skill": "skill:hot",
+    "briefing": "briefing:2026-06-11",
+    "audio": "audio:2026-06-11"
   },
   "policy": {
     "excluded_fields": [
