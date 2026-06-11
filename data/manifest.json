@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-11T00:00:00.000Z",
+  "generated_at": "2026-06-12T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 4953,
-    "details.github": 406,
-    "details.articles": 440,
-    "details.news": 1362,
+    "search": 4991,
+    "details.github": 414,
+    "details.articles": 446,
+    "details.news": 1384,
     "details.skills": 2596,
-    "briefings": 80,
-    "audio": 69
+    "briefings": 81,
+    "audio": 70
   },
   "latest": {
-    "github": "github:apple/container",
-    "article": "article:2026-06-10-556e2e94",
-    "news": "news:2026-06-11-2c9a73ec",
+    "github": "github:restic/restic",
+    "article": "article:2026-06-11-ba1846be",
+    "news": "news:2026-06-12-2c9a73ec",
     "skill": "skill:hot",
-    "briefing": "briefing:2026-06-11",
-    "audio": "audio:2026-06-11"
+    "briefing": "briefing:2026-06-12",
+    "audio": "audio:2026-06-12"
   },
   "policy": {
     "excluded_fields": [
