@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-13T00:00:00.000Z",
+  "generated_at": "2026-06-14T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 5060,
-    "details.github": 417,
-    "details.articles": 451,
-    "details.news": 1406,
-    "details.skills": 2633,
-    "briefings": 82,
-    "audio": 71
+    "search": 5081,
+    "details.github": 421,
+    "details.articles": 453,
+    "details.news": 1407,
+    "details.skills": 2645,
+    "briefings": 83,
+    "audio": 72
   },
   "latest": {
-    "github": "github:music-assistant/server",
-    "article": "article:2026-06-12-10c74d74",
-    "news": "news:2026-06-13-22b78025",
-    "skill": "skill:elevenlabs-music-generation",
-    "briefing": "briefing:2026-06-13",
-    "audio": "audio:2026-06-13"
+    "github": "github:swc-project/swc",
+    "article": "article:2026-06-13-4e8c980f",
+    "news": "news:2026-06-14-22b78025",
+    "skill": "skill:datafenxi",
+    "briefing": "briefing:2026-06-14",
+    "audio": "audio:2026-06-14"
   },
   "policy": {
     "excluded_fields": [
