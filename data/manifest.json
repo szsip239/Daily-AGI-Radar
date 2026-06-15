@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-15T00:00:00.000Z",
+  "generated_at": "2026-06-16T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 5107,
-    "details.github": 428,
-    "details.articles": 460,
-    "details.news": 1407,
-    "details.skills": 2655,
-    "briefings": 84,
-    "audio": 73
+    "search": 5160,
+    "details.github": 433,
+    "details.articles": 462,
+    "details.news": 1428,
+    "details.skills": 2678,
+    "briefings": 85,
+    "audio": 74
   },
   "latest": {
-    "github": "github:pytest-dev/pytest",
-    "article": "article:2026-06-14-90ff3700",
-    "news": "news:2026-06-15-22b78025",
-    "skill": "skill:taste-skill",
-    "briefing": "briefing:2026-06-15",
-    "audio": "audio:2026-06-15"
+    "github": "github:teslamate-org/teslamate",
+    "article": "article:2026-06-15-277403e6",
+    "news": "news:2026-06-16-15ffccdf",
+    "skill": "skill:tencent-novnc-chromium-cdp",
+    "briefing": "briefing:2026-06-16",
+    "audio": "audio:2026-06-16"
   },
   "policy": {
     "excluded_fields": [
