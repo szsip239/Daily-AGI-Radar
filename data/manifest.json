@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-16T00:00:00.000Z",
+  "generated_at": "2026-06-17T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 5160,
-    "details.github": 433,
-    "details.articles": 462,
-    "details.news": 1428,
-    "details.skills": 2678,
-    "briefings": 85,
-    "audio": 74
+    "search": 5203,
+    "details.github": 436,
+    "details.articles": 465,
+    "details.news": 1450,
+    "details.skills": 2691,
+    "briefings": 86,
+    "audio": 75
   },
   "latest": {
-    "github": "github:teslamate-org/teslamate",
-    "article": "article:2026-06-15-277403e6",
-    "news": "news:2026-06-16-15ffccdf",
-    "skill": "skill:tencent-novnc-chromium-cdp",
-    "briefing": "briefing:2026-06-16",
-    "audio": "audio:2026-06-16"
+    "github": "github:n0-computer/iroh",
+    "article": "article:2026-06-16-8de2ff09",
+    "news": "news:2026-06-17-15ffccdf",
+    "skill": "skill:retail-trade-report-generator",
+    "briefing": "briefing:2026-06-17",
+    "audio": "audio:2026-06-17"
   },
   "policy": {
     "excluded_fields": [
