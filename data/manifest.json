@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-18T00:00:00.000Z",
+  "generated_at": "2026-06-19T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 5243,
-    "details.github": 444,
-    "details.articles": 474,
-    "details.news": 1471,
-    "details.skills": 2691,
-    "briefings": 87,
-    "audio": 76
+    "search": 5288,
+    "details.github": 453,
+    "details.articles": 479,
+    "details.news": 1492,
+    "details.skills": 2699,
+    "briefings": 88,
+    "audio": 77
   },
   "latest": {
-    "github": "github:yairm210/Unciv",
-    "article": "article:2026-06-17-2c47b632",
-    "news": "news:2026-06-18-a0931fd1",
-    "skill": "skill:retail-trade-report-generator",
-    "briefing": "briefing:2026-06-18",
-    "audio": "audio:2026-06-18"
+    "github": "github:zai-org/GLM-5",
+    "article": "article:2026-06-18-5f845c12",
+    "news": "news:2026-06-19-a0931fd1",
+    "skill": "skill:law-skills",
+    "briefing": "briefing:2026-06-19",
+    "audio": "audio:2026-06-19"
   },
   "policy": {
     "excluded_fields": [
