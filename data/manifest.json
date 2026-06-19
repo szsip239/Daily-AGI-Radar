@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-19T00:00:00.000Z",
+  "generated_at": "2026-06-20T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 5288,
-    "details.github": 453,
-    "details.articles": 479,
-    "details.news": 1492,
-    "details.skills": 2699,
-    "briefings": 88,
-    "audio": 77
+    "search": 5320,
+    "details.github": 456,
+    "details.articles": 487,
+    "details.news": 1494,
+    "details.skills": 2716,
+    "briefings": 89,
+    "audio": 78
   },
   "latest": {
-    "github": "github:zai-org/GLM-5",
-    "article": "article:2026-06-18-5f845c12",
-    "news": "news:2026-06-19-a0931fd1",
-    "skill": "skill:law-skills",
-    "briefing": "briefing:2026-06-19",
-    "audio": "audio:2026-06-19"
+    "github": "github:palmier-io/palmier-pro",
+    "article": "article:2026-06-19-7f2547f4",
+    "news": "news:2026-06-20-d02f4369",
+    "skill": "skill:tdx-pro",
+    "briefing": "briefing:2026-06-20",
+    "audio": "audio:2026-06-20"
   },
   "policy": {
     "excluded_fields": [
