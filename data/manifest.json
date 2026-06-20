@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-20T00:00:00.000Z",
+  "generated_at": "2026-06-21T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 5320,
-    "details.github": 456,
+    "search": 5338,
+    "details.github": 459,
     "details.articles": 487,
-    "details.news": 1494,
-    "details.skills": 2716,
-    "briefings": 89,
-    "audio": 78
+    "details.news": 1496,
+    "details.skills": 2727,
+    "briefings": 90,
+    "audio": 79
   },
   "latest": {
-    "github": "github:palmier-io/palmier-pro",
+    "github": "github:tw93/Pake",
     "article": "article:2026-06-19-7f2547f4",
-    "news": "news:2026-06-20-d02f4369",
-    "skill": "skill:tdx-pro",
-    "briefing": "briefing:2026-06-20",
-    "audio": "audio:2026-06-20"
+    "news": "news:2026-06-21-d02f4369",
+    "skill": "skill:yijing-divination",
+    "briefing": "briefing:2026-06-21",
+    "audio": "audio:2026-06-21"
   },
   "policy": {
     "excluded_fields": [
