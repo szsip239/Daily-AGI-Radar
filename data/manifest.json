@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-21T00:00:00.000Z",
+  "generated_at": "2026-06-23T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 5338,
-    "details.github": 459,
-    "details.articles": 487,
-    "details.news": 1496,
-    "details.skills": 2727,
-    "briefings": 90,
-    "audio": 79
+    "search": 5386,
+    "details.github": 465,
+    "details.articles": 496,
+    "details.news": 1517,
+    "details.skills": 2737,
+    "briefings": 91,
+    "audio": 80
   },
   "latest": {
-    "github": "github:tw93/Pake",
-    "article": "article:2026-06-19-7f2547f4",
-    "news": "news:2026-06-21-d02f4369",
-    "skill": "skill:yijing-divination",
-    "briefing": "briefing:2026-06-21",
-    "audio": "audio:2026-06-21"
+    "github": "github:tashfeenahmed/freellmapi",
+    "article": "article:2026-06-22-bbcbab6a",
+    "news": "news:2026-06-23-16afa245",
+    "skill": "skill:mindmap-generator-plus",
+    "briefing": "briefing:2026-06-23",
+    "audio": "audio:2026-06-23"
   },
   "policy": {
     "excluded_fields": [
