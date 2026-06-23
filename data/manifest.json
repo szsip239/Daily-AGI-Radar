@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-23T00:00:00.000Z",
+  "generated_at": "2026-06-24T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 5386,
-    "details.github": 465,
-    "details.articles": 496,
-    "details.news": 1517,
-    "details.skills": 2737,
-    "briefings": 91,
-    "audio": 80
+    "search": 5434,
+    "details.github": 466,
+    "details.articles": 500,
+    "details.news": 1538,
+    "details.skills": 2757,
+    "briefings": 92,
+    "audio": 81
   },
   "latest": {
-    "github": "github:tashfeenahmed/freellmapi",
-    "article": "article:2026-06-22-bbcbab6a",
-    "news": "news:2026-06-23-16afa245",
-    "skill": "skill:mindmap-generator-plus",
-    "briefing": "briefing:2026-06-23",
-    "audio": "audio:2026-06-23"
+    "github": "github:OpenCut-app/OpenCut",
+    "article": "article:2026-06-23-057a510a",
+    "news": "news:2026-06-24-79af2831",
+    "skill": "skill:jrj-quote-skill",
+    "briefing": "briefing:2026-06-24",
+    "audio": "audio:2026-06-24"
   },
   "policy": {
     "excluded_fields": [
