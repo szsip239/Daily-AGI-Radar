@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-24T00:00:00.000Z",
+  "generated_at": "2026-06-25T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 5434,
-    "details.github": 466,
-    "details.articles": 500,
-    "details.news": 1538,
-    "details.skills": 2757,
-    "briefings": 92,
-    "audio": 81
+    "search": 5480,
+    "details.github": 473,
+    "details.articles": 504,
+    "details.news": 1559,
+    "details.skills": 2769,
+    "briefings": 93,
+    "audio": 82
   },
   "latest": {
-    "github": "github:OpenCut-app/OpenCut",
-    "article": "article:2026-06-23-057a510a",
-    "news": "news:2026-06-24-79af2831",
-    "skill": "skill:jrj-quote-skill",
-    "briefing": "briefing:2026-06-24",
-    "audio": "audio:2026-06-24"
+    "github": "github:microsoft/presidio",
+    "article": "article:2026-06-24-056adf00",
+    "news": "news:2026-06-25-efd651f5",
+    "skill": "skill:memory-manager-v2",
+    "briefing": "briefing:2026-06-25",
+    "audio": "audio:2026-06-25"
   },
   "policy": {
     "excluded_fields": [
