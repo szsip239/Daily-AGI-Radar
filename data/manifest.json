@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-25T00:00:00.000Z",
+  "generated_at": "2026-06-26T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 5480,
-    "details.github": 473,
-    "details.articles": 504,
-    "details.news": 1559,
-    "details.skills": 2769,
-    "briefings": 93,
-    "audio": 82
+    "search": 5524,
+    "details.github": 479,
+    "details.articles": 512,
+    "details.news": 1581,
+    "details.skills": 2775,
+    "briefings": 94,
+    "audio": 83
   },
   "latest": {
-    "github": "github:microsoft/presidio",
-    "article": "article:2026-06-24-056adf00",
-    "news": "news:2026-06-25-efd651f5",
-    "skill": "skill:memory-manager-v2",
-    "briefing": "briefing:2026-06-25",
-    "audio": "audio:2026-06-25"
+    "github": "github:xbtlin/ai-berkshire",
+    "article": "article:2026-06-25-dd15ebd8",
+    "news": "news:2026-06-26-12ebdc6a",
+    "skill": "skill:data-analysis-plus",
+    "briefing": "briefing:2026-06-26",
+    "audio": "audio:2026-06-26"
   },
   "policy": {
     "excluded_fields": [
