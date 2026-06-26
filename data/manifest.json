@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-26T00:00:00.000Z",
+  "generated_at": "2026-06-27T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 5524,
-    "details.github": 479,
-    "details.articles": 512,
-    "details.news": 1581,
-    "details.skills": 2775,
-    "briefings": 94,
-    "audio": 83
+    "search": 5575,
+    "details.github": 483,
+    "details.articles": 517,
+    "details.news": 1603,
+    "details.skills": 2793,
+    "briefings": 95,
+    "audio": 84
   },
   "latest": {
-    "github": "github:xbtlin/ai-berkshire",
-    "article": "article:2026-06-25-dd15ebd8",
-    "news": "news:2026-06-26-12ebdc6a",
-    "skill": "skill:data-analysis-plus",
-    "briefing": "briefing:2026-06-26",
-    "audio": "audio:2026-06-26"
+    "github": "github:simplex-chat/simplex-chat",
+    "article": "article:2026-06-26-735d8dd0",
+    "news": "news:2026-06-27-12ebdc6a",
+    "skill": "skill:tencent-ads-assistant",
+    "briefing": "briefing:2026-06-27",
+    "audio": "audio:2026-06-27"
   },
   "policy": {
     "excluded_fields": [
