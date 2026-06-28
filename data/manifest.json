@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-27T00:00:00.000Z",
+  "generated_at": "2026-06-29T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 5575,
-    "details.github": 483,
-    "details.articles": 517,
-    "details.news": 1603,
-    "details.skills": 2793,
-    "briefings": 95,
-    "audio": 84
+    "search": 5614,
+    "details.github": 489,
+    "details.articles": 524,
+    "details.news": 1604,
+    "details.skills": 2816,
+    "briefings": 96,
+    "audio": 85
   },
   "latest": {
-    "github": "github:simplex-chat/simplex-chat",
-    "article": "article:2026-06-26-735d8dd0",
-    "news": "news:2026-06-27-12ebdc6a",
-    "skill": "skill:tencent-ads-assistant",
-    "briefing": "briefing:2026-06-27",
-    "audio": "audio:2026-06-27"
+    "github": "github:cupy/cupy",
+    "article": "article:2026-06-27-35e6aac9",
+    "news": "news:2026-06-29-12ebdc6a",
+    "skill": "skill:ai-image-generation-runcomfy",
+    "briefing": "briefing:2026-06-29",
+    "audio": "audio:2026-06-29"
   },
   "policy": {
     "excluded_fields": [
