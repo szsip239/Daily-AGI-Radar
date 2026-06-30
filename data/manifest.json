@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T00:00:00.000Z",
+  "generated_at": "2026-07-01T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 5614,
-    "details.github": 489,
-    "details.articles": 524,
-    "details.news": 1604,
-    "details.skills": 2816,
-    "briefings": 96,
-    "audio": 85
+    "search": 5663,
+    "details.github": 495,
+    "details.articles": 535,
+    "details.news": 1629,
+    "details.skills": 2821,
+    "briefings": 97,
+    "audio": 86
   },
   "latest": {
-    "github": "github:cupy/cupy",
-    "article": "article:2026-06-27-35e6aac9",
-    "news": "news:2026-06-29-12ebdc6a",
-    "skill": "skill:ai-image-generation-runcomfy",
-    "briefing": "briefing:2026-06-29",
-    "audio": "audio:2026-06-29"
+    "github": "github:microsoft/AI-For-Beginners",
+    "article": "article:2026-06-30-e474b18c",
+    "news": "news:2026-07-01-7cad9cd7",
+    "skill": "skill:academic-figures",
+    "briefing": "briefing:2026-07-01",
+    "audio": "audio:2026-07-01"
   },
   "policy": {
     "excluded_fields": [
