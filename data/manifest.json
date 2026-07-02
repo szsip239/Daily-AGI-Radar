@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-02T00:00:00.000Z",
+  "generated_at": "2026-07-03T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 5699,
+    "search": 5740,
     "details.github": 495,
-    "details.articles": 540,
-    "details.news": 1650,
-    "details.skills": 2829,
-    "briefings": 98,
-    "audio": 87
+    "details.articles": 546,
+    "details.news": 1671,
+    "details.skills": 2841,
+    "briefings": 99,
+    "audio": 88
   },
   "latest": {
-    "github": "github:microsoft/AI-For-Beginners",
-    "article": "article:2026-07-01-d775057f",
-    "news": "news:2026-07-02-7cad9cd7",
-    "skill": "skill:toolbox-10-skill",
-    "briefing": "briefing:2026-07-02",
-    "audio": "audio:2026-07-02"
+    "github": "github:diegosouzapw/OmniRoute",
+    "article": "article:2026-07-02-4dc15046",
+    "news": "news:2026-07-03-7cad9cd7",
+    "skill": "skill:weibo-hot-trend",
+    "briefing": "briefing:2026-07-03",
+    "audio": "audio:2026-07-03"
   },
   "policy": {
     "excluded_fields": [
