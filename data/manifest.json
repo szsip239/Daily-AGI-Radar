@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-03T00:00:00.000Z",
+  "generated_at": "2026-07-04T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 5740,
-    "details.github": 495,
-    "details.articles": 546,
-    "details.news": 1671,
-    "details.skills": 2841,
-    "briefings": 99,
-    "audio": 88
+    "search": 5800,
+    "details.github": 510,
+    "details.articles": 551,
+    "details.news": 1696,
+    "details.skills": 2854,
+    "briefings": 100,
+    "audio": 89
   },
   "latest": {
-    "github": "github:diegosouzapw/OmniRoute",
-    "article": "article:2026-07-02-4dc15046",
-    "news": "news:2026-07-03-7cad9cd7",
-    "skill": "skill:weibo-hot-trend",
-    "briefing": "briefing:2026-07-03",
-    "audio": "audio:2026-07-03"
+    "github": "github:t8y2/dbx",
+    "article": "article:2026-07-03-60e30054",
+    "news": "news:2026-07-04-7cad9cd7",
+    "skill": "skill:jrj-fin-search-skill",
+    "briefing": "briefing:2026-07-04",
+    "audio": "audio:2026-07-04"
   },
   "policy": {
     "excluded_fields": [
