@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-04T00:00:00.000Z",
+  "generated_at": "2026-07-05T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 5800,
-    "details.github": 510,
-    "details.articles": 551,
+    "search": 5834,
+    "details.github": 516,
+    "details.articles": 556,
     "details.news": 1696,
-    "details.skills": 2854,
-    "briefings": 100,
-    "audio": 89
+    "details.skills": 2875,
+    "briefings": 101,
+    "audio": 90
   },
   "latest": {
-    "github": "github:t8y2/dbx",
-    "article": "article:2026-07-03-60e30054",
-    "news": "news:2026-07-04-7cad9cd7",
-    "skill": "skill:jrj-fin-search-skill",
-    "briefing": "briefing:2026-07-04",
-    "audio": "audio:2026-07-04"
+    "github": "github:crynta/terax-ai",
+    "article": "article:2026-07-04-89212a21",
+    "news": "news:2026-07-05-7cad9cd7",
+    "skill": "skill:viral-title-generator",
+    "briefing": "briefing:2026-07-05",
+    "audio": "audio:2026-07-05"
   },
   "policy": {
     "excluded_fields": [
