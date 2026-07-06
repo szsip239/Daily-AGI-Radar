@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-06T00:00:00.000Z",
+  "generated_at": "2026-07-07T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 5876,
+    "search": 5899,
     "details.github": 520,
     "details.articles": 560,
-    "details.news": 1696,
+    "details.news": 1717,
     "details.skills": 2907,
-    "briefings": 102,
-    "audio": 91
+    "briefings": 103,
+    "audio": 92
   },
   "latest": {
     "github": "github:steipete/CodexBar",
     "article": "article:2026-07-05-9d6b5a4b",
-    "news": "news:2026-07-06-7cad9cd7",
+    "news": "news:2026-07-07-70cb7c08",
     "skill": "skill:xigua-pro",
-    "briefing": "briefing:2026-07-06",
-    "audio": "audio:2026-07-06"
+    "briefing": "briefing:2026-07-07",
+    "audio": "audio:2026-07-07"
   },
   "policy": {
     "excluded_fields": [
