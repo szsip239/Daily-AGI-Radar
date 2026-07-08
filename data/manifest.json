@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-08T00:00:00.000Z",
+  "generated_at": "2026-07-09T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 5963,
-    "details.github": 526,
-    "details.articles": 572,
-    "details.news": 1739,
+    "search": 5992,
+    "details.github": 531,
+    "details.articles": 573,
+    "details.news": 1760,
     "details.skills": 2929,
-    "briefings": 104,
-    "audio": 93
+    "briefings": 105,
+    "audio": 94
   },
   "latest": {
-    "github": "github:kyutai-labs/pocket-tts",
-    "article": "article:2026-07-07-463123c9",
-    "news": "news:2026-07-08-70cb7c08",
-    "skill": "skill:memory-framework",
-    "briefing": "briefing:2026-07-08",
-    "audio": "audio:2026-07-08"
+    "github": "github:op7418/guizang-social-card-skill",
+    "article": "article:2026-07-08-bb1bf40d",
+    "news": "news:2026-07-09-70cb7c08",
+    "skill": "skill:finance-lite",
+    "briefing": "briefing:2026-07-09",
+    "audio": "audio:2026-07-09"
   },
   "policy": {
     "excluded_fields": [
