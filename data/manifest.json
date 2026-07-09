@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-09T00:00:00.000Z",
+  "generated_at": "2026-07-10T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 5992,
-    "details.github": 531,
-    "details.articles": 573,
-    "details.news": 1760,
-    "details.skills": 2929,
-    "briefings": 105,
-    "audio": 94
+    "search": 6059,
+    "details.github": 538,
+    "details.articles": 587,
+    "details.news": 1782,
+    "details.skills": 2951,
+    "briefings": 106,
+    "audio": 95
   },
   "latest": {
-    "github": "github:op7418/guizang-social-card-skill",
+    "github": "github:wonderwhy-er/DesktopCommanderMCP",
     "article": "article:2026-07-08-bb1bf40d",
-    "news": "news:2026-07-09-70cb7c08",
-    "skill": "skill:finance-lite",
-    "briefing": "briefing:2026-07-09",
-    "audio": "audio:2026-07-09"
+    "news": "news:2026-07-10-70cb7c08",
+    "skill": "skill:doubao-image-video",
+    "briefing": "briefing:2026-07-10",
+    "audio": "audio:2026-07-10"
   },
   "policy": {
     "excluded_fields": [
