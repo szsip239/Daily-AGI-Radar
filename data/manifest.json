@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-10T00:00:00.000Z",
+  "generated_at": "2026-07-12T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 6059,
-    "details.github": 538,
-    "details.articles": 587,
-    "details.news": 1782,
-    "details.skills": 2951,
-    "briefings": 106,
-    "audio": 95
+    "search": 6133,
+    "details.github": 552,
+    "details.articles": 599,
+    "details.news": 1802,
+    "details.skills": 2977,
+    "briefings": 107,
+    "audio": 96
   },
   "latest": {
-    "github": "github:wonderwhy-er/DesktopCommanderMCP",
-    "article": "article:2026-07-08-bb1bf40d",
-    "news": "news:2026-07-10-70cb7c08",
-    "skill": "skill:doubao-image-video",
-    "briefing": "briefing:2026-07-10",
-    "audio": "audio:2026-07-10"
+    "github": "github:zeux/meshoptimizer",
+    "article": "article:2026-07-09-c3ab9eab",
+    "news": "news:2026-07-12-27fafccc",
+    "skill": "skill:warren-buffett-investment",
+    "briefing": "briefing:2026-07-12",
+    "audio": "audio:2026-07-12"
   },
   "policy": {
     "excluded_fields": [
