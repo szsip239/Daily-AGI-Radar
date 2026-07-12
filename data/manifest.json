@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-12T00:00:00.000Z",
+  "generated_at": "2026-07-13T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 6133,
-    "details.github": 552,
-    "details.articles": 599,
+    "search": 6165,
+    "details.github": 560,
+    "details.articles": 607,
     "details.news": 1802,
-    "details.skills": 2977,
-    "briefings": 107,
-    "audio": 96
+    "details.skills": 2991,
+    "briefings": 108,
+    "audio": 97
   },
   "latest": {
-    "github": "github:zeux/meshoptimizer",
-    "article": "article:2026-07-09-c3ab9eab",
-    "news": "news:2026-07-12-27fafccc",
-    "skill": "skill:warren-buffett-investment",
-    "briefing": "briefing:2026-07-12",
-    "audio": "audio:2026-07-12"
+    "github": "github:par274/sharpemu",
+    "article": "article:2026-07-12-8d479ecd",
+    "news": "news:2026-07-13-27fafccc",
+    "skill": "skill:feishu-cli-installer",
+    "briefing": "briefing:2026-07-13",
+    "audio": "audio:2026-07-13"
   },
   "policy": {
     "excluded_fields": [
