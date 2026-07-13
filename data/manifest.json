@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-13T00:00:00.000Z",
+  "generated_at": "2026-07-14T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 6165,
-    "details.github": 560,
-    "details.articles": 607,
-    "details.news": 1802,
-    "details.skills": 2991,
-    "briefings": 108,
-    "audio": 97
+    "search": 6222,
+    "details.github": 563,
+    "details.articles": 611,
+    "details.news": 1823,
+    "details.skills": 3018,
+    "briefings": 109,
+    "audio": 98
   },
   "latest": {
-    "github": "github:par274/sharpemu",
-    "article": "article:2026-07-12-8d479ecd",
-    "news": "news:2026-07-13-27fafccc",
-    "skill": "skill:feishu-cli-installer",
-    "briefing": "briefing:2026-07-13",
-    "audio": "audio:2026-07-13"
+    "github": "github:argoproj/argo-cd",
+    "article": "article:2026-07-13-bcc0c792",
+    "news": "news:2026-07-14-644b7274",
+    "skill": "skill:lbbniu-skill-creator",
+    "briefing": "briefing:2026-07-14",
+    "audio": "audio:2026-07-14"
   },
   "policy": {
     "excluded_fields": [
