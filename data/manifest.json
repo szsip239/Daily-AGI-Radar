@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-14T00:00:00.000Z",
+  "generated_at": "2026-07-15T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 6222,
-    "details.github": 563,
-    "details.articles": 611,
-    "details.news": 1823,
+    "search": 6251,
+    "details.github": 567,
+    "details.articles": 613,
+    "details.news": 1844,
     "details.skills": 3018,
-    "briefings": 109,
-    "audio": 98
+    "briefings": 110,
+    "audio": 99
   },
   "latest": {
-    "github": "github:argoproj/argo-cd",
+    "github": "github:chenyme/grok2api",
     "article": "article:2026-07-13-bcc0c792",
-    "news": "news:2026-07-14-644b7274",
+    "news": "news:2026-07-15-c302a3f8",
     "skill": "skill:lbbniu-skill-creator",
-    "briefing": "briefing:2026-07-14",
-    "audio": "audio:2026-07-14"
+    "briefing": "briefing:2026-07-15",
+    "audio": "audio:2026-07-15"
   },
   "policy": {
     "excluded_fields": [
