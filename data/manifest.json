@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-17T00:00:00.000Z",
+  "generated_at": "2026-07-18T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 6358,
-    "details.github": 577,
-    "details.articles": 634,
-    "details.news": 1886,
+    "search": 6387,
+    "details.github": 581,
+    "details.articles": 635,
+    "details.news": 1908,
     "details.skills": 3048,
-    "briefings": 112,
-    "audio": 101
+    "briefings": 113,
+    "audio": 102
   },
   "latest": {
-    "github": "github:ossu/computer-science",
-    "article": "article:2026-07-15-d800f016",
-    "news": "news:2026-07-17-c302a3f8",
+    "github": "github:vercel-labs/native",
+    "article": "article:2026-07-17-5891b2cf",
+    "news": "news:2026-07-18-d46dd240",
     "skill": "skill:xhs-viral-copywriter",
-    "briefing": "briefing:2026-07-17",
-    "audio": "audio:2026-07-17"
+    "briefing": "briefing:2026-07-18",
+    "audio": "audio:2026-07-18"
   },
   "policy": {
     "excluded_fields": [
