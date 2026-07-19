@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-19T00:00:00.000Z",
+  "generated_at": "2026-07-20T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 6401,
-    "details.github": 584,
-    "details.articles": 640,
+    "search": 6429,
+    "details.github": 590,
+    "details.articles": 647,
     "details.news": 1908,
-    "details.skills": 3052,
-    "briefings": 114,
-    "audio": 103
+    "details.skills": 3065,
+    "briefings": 115,
+    "audio": 104
   },
   "latest": {
-    "github": "github:elder-plinius/G0DM0D3",
-    "article": "article:2026-07-18-4b43604b",
-    "news": "news:2026-07-19-d46dd240",
-    "skill": "skill:novelist",
-    "briefing": "briefing:2026-07-19",
-    "audio": "audio:2026-07-19"
+    "github": "github:microsoft/terminal",
+    "article": "article:2026-07-19-fdc36d92",
+    "news": "news:2026-07-20-d46dd240",
+    "skill": "skill:knowledge-spider",
+    "briefing": "briefing:2026-07-20",
+    "audio": "audio:2026-07-20"
   },
   "policy": {
     "excluded_fields": [
