@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-20T00:00:00.000Z",
+  "generated_at": "2026-07-22T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 6429,
-    "details.github": 590,
-    "details.articles": 647,
-    "details.news": 1908,
-    "details.skills": 3065,
-    "briefings": 115,
-    "audio": 104
+    "search": 6510,
+    "details.github": 606,
+    "details.articles": 663,
+    "details.news": 1953,
+    "details.skills": 3067,
+    "briefings": 116,
+    "audio": 105
   },
   "latest": {
-    "github": "github:microsoft/terminal",
-    "article": "article:2026-07-19-fdc36d92",
-    "news": "news:2026-07-20-d46dd240",
-    "skill": "skill:knowledge-spider",
-    "briefing": "briefing:2026-07-20",
-    "audio": "audio:2026-07-20"
+    "github": "github:schollz/croc",
+    "article": "article:2026-07-21-0aee7d20",
+    "news": "news:2026-07-22-63e789ed",
+    "skill": "skill:lingyi-wx-video-decomposer-plus",
+    "briefing": "briefing:2026-07-22",
+    "audio": "audio:2026-07-22"
   },
   "policy": {
     "excluded_fields": [
