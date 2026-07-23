@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-23T00:00:00.000Z",
+  "generated_at": "2026-07-24T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 6556,
+    "search": 6560,
     "details.github": 615,
-    "details.articles": 668,
+    "details.articles": 670,
     "details.news": 1974,
     "details.skills": 3076,
-    "briefings": 117,
-    "audio": 106
+    "briefings": 118,
+    "audio": 107
   },
   "latest": {
     "github": "github:likec4/likec4",
-    "article": "article:2026-07-22-c0bce1a9",
-    "news": "news:2026-07-23-8beeac30",
+    "article": "article:2026-07-23-80d879a1",
+    "news": "news:2026-07-24-9db1a308",
     "skill": "skill:academic-docx-toolkit",
-    "briefing": "briefing:2026-07-23",
-    "audio": "audio:2026-07-23"
+    "briefing": "briefing:2026-07-24",
+    "audio": "audio:2026-07-24"
   },
   "policy": {
     "excluded_fields": [
