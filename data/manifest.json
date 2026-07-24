@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-24T00:00:00.000Z",
+  "generated_at": "2026-07-25T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 6560,
-    "details.github": 615,
-    "details.articles": 670,
-    "details.news": 1974,
-    "details.skills": 3076,
-    "briefings": 118,
-    "audio": 107
+    "search": 6594,
+    "details.github": 617,
+    "details.articles": 674,
+    "details.news": 1996,
+    "details.skills": 3080,
+    "briefings": 119,
+    "audio": 108
   },
   "latest": {
-    "github": "github:likec4/likec4",
-    "article": "article:2026-07-23-80d879a1",
-    "news": "news:2026-07-24-9db1a308",
-    "skill": "skill:academic-docx-toolkit",
-    "briefing": "briefing:2026-07-24",
-    "audio": "audio:2026-07-24"
+    "github": "github:yorukot/superfile",
+    "article": "article:2026-07-23-92339b97",
+    "news": "news:2026-07-25-4e1af932",
+    "skill": "skill:paper-deweight-fd",
+    "briefing": "briefing:2026-07-25",
+    "audio": "audio:2026-07-25"
   },
   "policy": {
     "excluded_fields": [
