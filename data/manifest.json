@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-26T00:00:00.000Z",
+  "generated_at": "2026-07-27T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 6608,
-    "details.github": 618,
-    "details.articles": 681,
+    "search": 6620,
+    "details.github": 621,
+    "details.articles": 686,
     "details.news": 1996,
-    "details.skills": 3084,
-    "briefings": 120,
-    "audio": 109
+    "details.skills": 3086,
+    "briefings": 121,
+    "audio": 110
   },
   "latest": {
-    "github": "github:permissionlesstech/bitchat",
-    "article": "article:2026-07-25-089ff246",
-    "news": "news:2026-07-26-8beeac30",
-    "skill": "skill:wiki",
-    "briefing": "briefing:2026-07-26",
-    "audio": "audio:2026-07-26"
+    "github": "github:permissionlesstech/bitchat-android",
+    "article": "article:2026-07-26-fc61267b",
+    "news": "news:2026-07-27-8beeac30",
+    "skill": "skill:xhs-topic-analysis-v2",
+    "briefing": "briefing:2026-07-27",
+    "audio": "audio:2026-07-27"
   },
   "policy": {
     "excluded_fields": [
