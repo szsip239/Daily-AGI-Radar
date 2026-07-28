@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-28T00:00:00.000Z",
+  "generated_at": "2026-07-29T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 6793,
-    "details.github": 623,
-    "details.articles": 696,
-    "details.news": 2017,
-    "details.skills": 3224,
-    "briefings": 122,
-    "audio": 111
+    "search": 6825,
+    "details.github": 629,
+    "details.articles": 698,
+    "details.news": 2038,
+    "details.skills": 3225,
+    "briefings": 123,
+    "audio": 112
   },
   "latest": {
-    "github": "github:vudovn/ag-kit",
-    "article": "article:2026-07-27-90caaffa",
-    "news": "news:2026-07-28-17120e7d",
-    "skill": "skill:sales-manager",
-    "briefing": "briefing:2026-07-28",
-    "audio": "audio:2026-07-28"
+    "github": "github:virgiliojr94/book-to-skill",
+    "article": "article:2026-07-28-66a8bf95",
+    "news": "news:2026-07-29-17120e7d",
+    "skill": "skill:findskill",
+    "briefing": "briefing:2026-07-29",
+    "audio": "audio:2026-07-29"
   },
   "policy": {
     "excluded_fields": [
