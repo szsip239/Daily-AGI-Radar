@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-29T00:00:00.000Z",
+  "generated_at": "2026-07-30T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 6825,
+    "search": 6848,
     "details.github": 629,
     "details.articles": 698,
-    "details.news": 2038,
+    "details.news": 2059,
     "details.skills": 3225,
-    "briefings": 123,
-    "audio": 112
+    "briefings": 124,
+    "audio": 113
   },
   "latest": {
     "github": "github:virgiliojr94/book-to-skill",
     "article": "article:2026-07-28-66a8bf95",
-    "news": "news:2026-07-29-17120e7d",
+    "news": "news:2026-07-30-17120e7d",
     "skill": "skill:findskill",
-    "briefing": "briefing:2026-07-29",
-    "audio": "audio:2026-07-29"
+    "briefing": "briefing:2026-07-30",
+    "audio": "audio:2026-07-30"
   },
   "policy": {
     "excluded_fields": [
