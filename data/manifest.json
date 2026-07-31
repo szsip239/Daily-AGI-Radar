@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-31T00:00:00.000Z",
+  "generated_at": "2026-08-01T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 6902,
+    "search": 6913,
     "details.github": 636,
     "details.articles": 712,
     "details.news": 2086,
-    "details.skills": 3229,
-    "briefings": 125,
-    "audio": 114
+    "details.skills": 3238,
+    "briefings": 126,
+    "audio": 115
   },
   "latest": {
     "github": "github:zhaoxuya520/reverse-skill",
     "article": "article:2026-07-31-f0f28b5b",
-    "news": "news:2026-07-31-3524a983",
-    "skill": "skill:video-auto-editor-skill",
-    "briefing": "briefing:2026-07-31",
-    "audio": "audio:2026-07-31"
+    "news": "news:2026-08-01-a9aa7c56",
+    "skill": "skill:paper-review-methodology",
+    "briefing": "briefing:2026-08-01",
+    "audio": "audio:2026-08-01"
   },
   "policy": {
     "excluded_fields": [
