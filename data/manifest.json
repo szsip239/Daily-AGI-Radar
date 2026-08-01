@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-01T00:00:00.000Z",
+  "generated_at": "2026-08-02T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 6913,
-    "details.github": 636,
-    "details.articles": 712,
+    "search": 6935,
+    "details.github": 641,
+    "details.articles": 721,
     "details.news": 2086,
-    "details.skills": 3238,
-    "briefings": 126,
-    "audio": 115
+    "details.skills": 3244,
+    "briefings": 127,
+    "audio": 116
   },
   "latest": {
-    "github": "github:zhaoxuya520/reverse-skill",
-    "article": "article:2026-07-31-f0f28b5b",
-    "news": "news:2026-08-01-a9aa7c56",
-    "skill": "skill:paper-review-methodology",
-    "briefing": "briefing:2026-08-01",
-    "audio": "audio:2026-08-01"
+    "github": "github:microsoft/generative-ai-for-beginners",
+    "article": "article:2026-08-01-8b6240dc",
+    "news": "news:2026-08-02-a9aa7c56",
+    "skill": "skill:lingyi-content-quality-check",
+    "briefing": "briefing:2026-08-02",
+    "audio": "audio:2026-08-02"
   },
   "policy": {
     "excluded_fields": [
