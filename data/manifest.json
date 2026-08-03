@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-03T00:00:00.000Z",
+  "generated_at": "2026-08-04T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 6953,
-    "details.github": 644,
-    "details.articles": 726,
-    "details.news": 2086,
-    "details.skills": 3252,
-    "briefings": 128,
-    "audio": 117
+    "search": 7076,
+    "details.github": 646,
+    "details.articles": 731,
+    "details.news": 2107,
+    "details.skills": 3345,
+    "briefings": 129,
+    "audio": 118
   },
   "latest": {
-    "github": "github:antirez/ds4",
-    "article": "article:2026-08-02-3d041dbd",
-    "news": "news:2026-08-03-a9aa7c56",
-    "skill": "skill:prompt-alchemist",
-    "briefing": "briefing:2026-08-03",
-    "audio": "audio:2026-08-03"
+    "github": "github:livekit/agents",
+    "article": "article:2026-08-03-9aeb88e4",
+    "news": "news:2026-08-04-a9aa7c56",
+    "skill": "skill:cultivation-chronicle-cn",
+    "briefing": "briefing:2026-08-04",
+    "audio": "audio:2026-08-04"
   },
   "policy": {
     "excluded_fields": [
