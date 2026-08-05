@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-05T00:00:00.000Z",
+  "generated_at": "2026-08-06T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 7119,
-    "details.github": 651,
-    "details.articles": 738,
-    "details.news": 2128,
-    "details.skills": 3353,
-    "briefings": 130,
-    "audio": 119
+    "search": 7155,
+    "details.github": 655,
+    "details.articles": 745,
+    "details.news": 2149,
+    "details.skills": 3355,
+    "briefings": 131,
+    "audio": 120
   },
   "latest": {
-    "github": "github:webpack/webpack",
-    "article": "article:2026-08-04-571ec8ce",
-    "news": "news:2026-08-05-a9aa7c56",
-    "skill": "skill:lingyi-wx-video-decomposer-exp",
-    "briefing": "briefing:2026-08-05",
-    "audio": "audio:2026-08-05"
+    "github": "github:woosal1337/blog",
+    "article": "article:2026-08-05-9a92ccc9",
+    "news": "news:2026-08-06-a9aa7c56",
+    "skill": "skill:agent-evaluation",
+    "briefing": "briefing:2026-08-06",
+    "audio": "audio:2026-08-06"
   },
   "policy": {
     "excluded_fields": [
