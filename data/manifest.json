@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-06T00:00:00.000Z",
+  "generated_at": "2026-08-08T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 7155,
-    "details.github": 655,
-    "details.articles": 745,
-    "details.news": 2149,
-    "details.skills": 3355,
-    "briefings": 131,
-    "audio": 120
+    "search": 7227,
+    "details.github": 666,
+    "details.articles": 755,
+    "details.news": 2175,
+    "details.skills": 3378,
+    "briefings": 132,
+    "audio": 121
   },
   "latest": {
-    "github": "github:woosal1337/blog",
-    "article": "article:2026-08-05-9a92ccc9",
-    "news": "news:2026-08-06-a9aa7c56",
-    "skill": "skill:agent-evaluation",
-    "briefing": "briefing:2026-08-06",
-    "audio": "audio:2026-08-06"
+    "github": "github:unclebob/swarm-forge",
+    "article": "article:2026-08-07-837bc4d4",
+    "news": "news:2026-08-08-acdb05e1",
+    "skill": "skill:gaode-map-pro",
+    "briefing": "briefing:2026-08-08",
+    "audio": "audio:2026-08-08"
   },
   "policy": {
     "excluded_fields": [
