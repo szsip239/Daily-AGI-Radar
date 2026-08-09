@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-09T00:00:00.000Z",
+  "generated_at": "2026-08-10T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 7245,
-    "details.github": 668,
-    "details.articles": 756,
+    "search": 7263,
+    "details.github": 672,
+    "details.articles": 766,
     "details.news": 2175,
-    "details.skills": 3391,
-    "briefings": 133,
-    "audio": 122
+    "details.skills": 3393,
+    "briefings": 134,
+    "audio": 123
   },
   "latest": {
-    "github": "github:litu54/DevOps-Interview-Guide",
-    "article": "article:2026-08-08-135589e6",
-    "news": "news:2026-08-09-acdb05e1",
-    "skill": "skill:chan-theory-analysis",
-    "briefing": "briefing:2026-08-09",
-    "audio": "audio:2026-08-09"
+    "github": "github:vitali87/code-graph-rag",
+    "article": "article:2026-08-09-625740ce",
+    "news": "news:2026-08-10-acdb05e1",
+    "skill": "skill:qwen-asr",
+    "briefing": "briefing:2026-08-10",
+    "audio": "audio:2026-08-10"
   },
   "policy": {
     "excluded_fields": [
