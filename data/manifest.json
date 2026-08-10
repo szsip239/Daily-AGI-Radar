@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-10T00:00:00.000Z",
+  "generated_at": "2026-08-11T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 7263,
-    "details.github": 672,
+    "search": 7295,
+    "details.github": 673,
     "details.articles": 766,
-    "details.news": 2175,
-    "details.skills": 3393,
-    "briefings": 134,
-    "audio": 123
+    "details.news": 2196,
+    "details.skills": 3401,
+    "briefings": 135,
+    "audio": 124
   },
   "latest": {
-    "github": "github:vitali87/code-graph-rag",
+    "github": "github:opa334/Dopamine",
     "article": "article:2026-08-09-625740ce",
-    "news": "news:2026-08-10-acdb05e1",
-    "skill": "skill:qwen-asr",
-    "briefing": "briefing:2026-08-10",
-    "audio": "audio:2026-08-10"
+    "news": "news:2026-08-11-acdb05e1",
+    "skill": "skill:social-matrix-manager-claw",
+    "briefing": "briefing:2026-08-11",
+    "audio": "audio:2026-08-11"
   },
   "policy": {
     "excluded_fields": [
