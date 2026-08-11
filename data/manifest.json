@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-11T00:00:00.000Z",
+  "generated_at": "2026-08-12T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 7295,
-    "details.github": 673,
-    "details.articles": 766,
-    "details.news": 2196,
-    "details.skills": 3401,
-    "briefings": 135,
-    "audio": 124
+    "search": 7346,
+    "details.github": 679,
+    "details.articles": 771,
+    "details.news": 2217,
+    "details.skills": 3418,
+    "briefings": 136,
+    "audio": 125
   },
   "latest": {
-    "github": "github:opa334/Dopamine",
-    "article": "article:2026-08-09-625740ce",
-    "news": "news:2026-08-11-acdb05e1",
-    "skill": "skill:social-matrix-manager-claw",
-    "briefing": "briefing:2026-08-11",
-    "audio": "audio:2026-08-11"
+    "github": "github:practical-tutorials/project-based-learning",
+    "article": "article:2026-08-10-3d2265f8",
+    "news": "news:2026-08-12-acdb05e1",
+    "skill": "skill:subject-hyn",
+    "briefing": "briefing:2026-08-12",
+    "audio": "audio:2026-08-12"
   },
   "policy": {
     "excluded_fields": [
