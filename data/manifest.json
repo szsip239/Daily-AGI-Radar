@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-12T00:00:00.000Z",
+  "generated_at": "2026-08-14T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 7346,
-    "details.github": 679,
-    "details.articles": 771,
-    "details.news": 2217,
-    "details.skills": 3418,
-    "briefings": 136,
-    "audio": 125
+    "search": 7425,
+    "details.github": 688,
+    "details.articles": 778,
+    "details.news": 2259,
+    "details.skills": 3436,
+    "briefings": 137,
+    "audio": 127
   },
   "latest": {
-    "github": "github:practical-tutorials/project-based-learning",
-    "article": "article:2026-08-10-3d2265f8",
-    "news": "news:2026-08-12-acdb05e1",
-    "skill": "skill:subject-hyn",
-    "briefing": "briefing:2026-08-12",
-    "audio": "audio:2026-08-12"
+    "github": "github:smicallef/spiderfoot",
+    "article": "article:2026-08-11-54403732",
+    "news": "news:2026-08-14-2852a0ae",
+    "skill": "skill:openclaw-feishu-docs-perm-auto",
+    "briefing": "briefing:2026-08-14",
+    "audio": "audio:2026-08-14"
   },
   "policy": {
     "excluded_fields": [
