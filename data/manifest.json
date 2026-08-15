@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T00:00:00.000Z",
+  "generated_at": "2026-08-16T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 7487,
-    "details.github": 693,
+    "search": 7515,
+    "details.github": 695,
     "details.articles": 794,
     "details.news": 2282,
-    "details.skills": 3452,
-    "briefings": 138,
-    "audio": 128
+    "details.skills": 3476,
+    "briefings": 139,
+    "audio": 129
   },
   "latest": {
-    "github": "github:megadose/holehe",
+    "github": "github:cordiverse/cordis",
     "article": "article:2026-08-13-ae539d7b",
-    "news": "news:2026-08-15-f84a7eee",
-    "skill": "skill:tdx",
-    "briefing": "briefing:2026-08-15",
-    "audio": "audio:2026-08-15"
+    "news": "news:2026-08-16-f84a7eee",
+    "skill": "skill:learning-feynman",
+    "briefing": "briefing:2026-08-16",
+    "audio": "audio:2026-08-16"
   },
   "policy": {
     "excluded_fields": [
