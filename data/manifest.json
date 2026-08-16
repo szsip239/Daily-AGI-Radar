@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-16T00:00:00.000Z",
+  "generated_at": "2026-08-17T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 7515,
-    "details.github": 695,
+    "search": 7570,
+    "details.github": 697,
     "details.articles": 794,
     "details.news": 2282,
-    "details.skills": 3476,
-    "briefings": 139,
-    "audio": 129
+    "details.skills": 3527,
+    "briefings": 140,
+    "audio": 130
   },
   "latest": {
-    "github": "github:cordiverse/cordis",
+    "github": "github:basecamp/omarchy",
     "article": "article:2026-08-13-ae539d7b",
-    "news": "news:2026-08-16-f84a7eee",
-    "skill": "skill:learning-feynman",
-    "briefing": "briefing:2026-08-16",
-    "audio": "audio:2026-08-16"
+    "news": "news:2026-08-17-f84a7eee",
+    "skill": "skill:heilongjiang-bid-analysis-shibo",
+    "briefing": "briefing:2026-08-17",
+    "audio": "audio:2026-08-17"
   },
   "policy": {
     "excluded_fields": [
