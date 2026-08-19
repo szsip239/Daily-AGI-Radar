@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T00:00:00.000Z",
+  "generated_at": "2026-08-18T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 7570,
-    "details.github": 697,
+    "search": 7712,
+    "details.github": 698,
     "details.articles": 794,
-    "details.news": 2282,
-    "details.skills": 3527,
-    "briefings": 140,
-    "audio": 130
+    "details.news": 2303,
+    "details.skills": 3645,
+    "briefings": 141,
+    "audio": 131
   },
   "latest": {
-    "github": "github:basecamp/omarchy",
+    "github": "github:agalwood/Motrix",
     "article": "article:2026-08-13-ae539d7b",
-    "news": "news:2026-08-17-f84a7eee",
-    "skill": "skill:heilongjiang-bid-analysis-shibo",
-    "briefing": "briefing:2026-08-17",
-    "audio": "audio:2026-08-17"
+    "news": "news:2026-08-18-9f769cb1",
+    "skill": "skill:hong-kong-bid-analysis-shibo-aliyun",
+    "briefing": "briefing:2026-08-18",
+    "audio": "audio:2026-08-18"
   },
   "policy": {
     "excluded_fields": [
