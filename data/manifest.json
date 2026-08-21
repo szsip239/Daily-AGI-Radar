@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-21T00:00:00.000Z",
+  "generated_at": "2026-08-22T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 7889,
+    "search": 7953,
     "details.github": 705,
     "details.articles": 811,
-    "details.news": 2366,
-    "details.skills": 3729,
-    "briefings": 144,
-    "audio": 134
+    "details.news": 2387,
+    "details.skills": 3770,
+    "briefings": 145,
+    "audio": 135
   },
   "latest": {
     "github": "github:modular/modular",
     "article": "article:2026-08-19-03195e9e",
-    "news": "news:2026-08-21-c8690d1c",
-    "skill": "skill:knows-finance",
-    "briefing": "briefing:2026-08-21",
-    "audio": "audio:2026-08-21"
+    "news": "news:2026-08-22-b9fbf0fc",
+    "skill": "skill:senior-developer",
+    "briefing": "briefing:2026-08-22",
+    "audio": "audio:2026-08-22"
   },
   "policy": {
     "excluded_fields": [
