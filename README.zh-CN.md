@@ -30,6 +30,7 @@ Daily AGI Radar 是一个公开的 AI 信号库。它不是新闻站，也不是
 | 数据源 | 内容 |
 | --- | --- |
 | GitHub Trending / GitHub 搜索 | AI/AGI 相关热门项目、增长项目、工具项目 |
+| Trendshift | GitHub 项目补充源，融合社媒提及热度的周榜/月榜 |
 | WayToAGI | 精选博客文章、教程、观点和实践内容 |
 | SkillHub | 热门 agent skills，包含能力、安装量、增长等信号 |
 | AI 新闻源 | 每日 AI 新闻、产品动态、行业事件 |
@@ -41,7 +42,8 @@ Daily AGI Radar 是一个公开的 AI 信号库。它不是新闻站，也不是
 
 | 类型 | 采集范围 | 入库条件 | 说明 |
 | --- | --- | --- | --- |
-| GitHub 项目 | 抓取 GitHub Trending 的 daily、weekly、monthly 三个榜单，按 `owner/repo` 去重合并；同一项目会合并趋势类型，并保留最大的 `stars增加`；同时抓取 README 前 3000 字作为 AI 增强上下文。 | 如果是飞书 Base 里的新项目，必须完成 AI 增强，且 `分类`、`项目readme总结` 非空；否则跳过。当前没有额外写死的 star 下限。 | 已存在项目不会重复入库，但会用于记录当日 star 增长和日报展示。 |
+| GitHub 项目 | 抓取 GitHub Trending 的 daily、weekly、monthly 三个榜单，按规范化后的 `owner/repo` 去重合并（大小写不敏感）；同一项目会合并趋势类型，并保留最大的 `stars增加`；同时抓取 README 前 3000 字作为 AI 增强上下文。 | 如果是飞书 Base 里的新项目，必须完成 AI 增强，且 `分类`、`项目readme总结` 非空；否则跳过。当前没有额外写死的 star 下限。 | 已存在项目不会重复入库，但会用于记录当日 star 增长和日报展示。 |
+| GitHub 项目（Trendshift） | 抓取 `trendshift.io` 的 weekly、monthly 两个榜单，解析页面内嵌的结构化数据；按规范化仓库 URL 与 GitHub Trending 结果合并去重。 | `stars >= 1000`、命中 AI 相关标签，且每天最多新增 5 个（按 Trendshift 热度分排序），再完成 AI 增强后入库。 | 同一仓库两个榜单都上榜时只保留一条记录，`来源` 字段并集保留两个出处。 |
 | WayToAGI 文章 | 优先抓取 WayToAGI 飞书 Wiki 的近 7 日更新；如果 Wiki 抓取失败，则回退到 `waytoagi.com` 近 7 日博客；再合并手动补充列表；按 URL 或标题去重。 | 如果是新文章，必须完成 AI 增强，且 `分类`、`文章总结` 非空；否则跳过。`推荐程度` 会生成 1-5 分，存在时写入，但当前不是硬过滤阈值。 | Wiki 文档会尽量抓取正文摘要供 AI 总结使用，单次最多抓取 20 篇正文摘要。 |
 | SkillHub Skills | 优先抓取 SkillHub API 综合排序前 200 条，按 `slug` 去重；SkillHub 无数据时才用 ClawHub 搜索和详情接口兜底；公开链接统一归一化为 `https://skillhub.cn/skills/{slug}`。 | 如果是新 skill，安装量必须 `> 1500`，并且完成 AI 增强，且 `分类`、`技能能力总结` 非空；否则跳过。 | 已存在 skill 不重复入库，只在发现旧链接不规范时修正技能地址。 |
 

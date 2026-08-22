@@ -12,6 +12,14 @@ _Avoid_: whatsnew, AI news bot
 A single curated item worth discovering, such as a project, article, news item, skill, briefing, or audio episode.
 _Avoid_: record, row, entry
 
+**Board Source**:
+The ranking board a GitHub project signal was discovered on, such as GitHub Trending or Trendshift. One project may carry more than one.
+_Avoid_: trigger mode, crawl mode, 定期抓取
+
+**Normalized Repository Key**:
+The case-insensitive `owner/repo` form used to decide whether two source records describe the same GitHub project.
+_Avoid_: repository URL, project name string
+
 **Signal ID**:
 A stable public identifier for a signal, formed from its type and business key.
 _Avoid_: Feishu record ID, table row ID
@@ -96,6 +104,8 @@ _Avoid_: timestamp, scrape time
 
 - A **Publisher** publishes many **Signals**.
 - A **Signal** has exactly one **Signal ID**.
+- A GitHub project **Signal** carries one or more **Board Sources**.
+- Two source records sharing a **Normalized Repository Key** are the same **Signal**.
 - A **Reader** reads many **Signals** and does not create or modify them.
 - A **Submitter** creates many **Submissions**.
 - A **Submitter** provides only a **Submission URL** through `agi-radar submit`.
@@ -128,6 +138,8 @@ _Avoid_: timestamp, scrape time
 
 ## Flagged ambiguities
 
+- On GitHub project signals, `来源` means **Board Source** and may hold several values; on other signal types it remains the single-valued trigger mode.
+- A **Normalized Repository Key** is only a comparison key; published identifiers keep the casing GitHub itself uses.
 - Published feeds are read-only; `submit` creates review candidates and does not write directly to public feeds.
 - Public submissions are carried by GitHub Issue Forms before any accepted-submission or feed write.
 - Public submission forms should require only the submitted URL from the submitter; kind is determined by the CLI subcommand.
