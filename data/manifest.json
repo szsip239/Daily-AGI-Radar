@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-22T00:00:00.000Z",
+  "generated_at": "2026-08-23T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 7953,
-    "details.github": 705,
-    "details.articles": 811,
+    "search": 8172,
+    "details.github": 875,
+    "details.articles": 823,
     "details.news": 2387,
-    "details.skills": 3770,
-    "briefings": 145,
-    "audio": 135
+    "details.skills": 3805,
+    "briefings": 146,
+    "audio": 136
   },
   "latest": {
-    "github": "github:modular/modular",
-    "article": "article:2026-08-19-03195e9e",
-    "news": "news:2026-08-22-b9fbf0fc",
-    "skill": "skill:senior-developer",
-    "briefing": "briefing:2026-08-22",
-    "audio": "audio:2026-08-22"
+    "github": "github:n8n-io/n8n",
+    "article": "article:2026-08-21-91bab24c",
+    "news": "news:2026-08-23-b9fbf0fc",
+    "skill": "skill:music-generation-studio",
+    "briefing": "briefing:2026-08-23",
+    "audio": "audio:2026-08-23"
   },
   "policy": {
     "excluded_fields": [
