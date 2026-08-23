@@ -34,7 +34,7 @@
 | 类型 | 采集范围 | 入库条件 | 说明 |
 | --- | --- | --- | --- |
 | GitHub 项目 | 抓取 GitHub Trending 的 daily、weekly、monthly 三个榜单，按规范化后的 `owner/repo` 去重合并（大小写不敏感）；同一项目会合并趋势类型，并保留最大的 `stars增加`；同时抓取 README 前 3000 字作为 AI 增强上下文。 | 如果是新项目，完成 AI 增强后入库。 | 已存在项目不会重复入库，但会用于记录当日 star 增长和日报展示。 |
-| GitHub 项目（Trendshift） | 抓取 `trendshift.io` 的 weekly、monthly 两个榜单，解析页面内嵌的结构化数据；按规范化仓库 URL 与 GitHub Trending 结果合并去重。 | `stars >= 1000`、命中 AI 相关标签，且每天最多新增 5 个（按 Trendshift 热度分排序），再完成 AI 增强后入库。 | 同一仓库两个榜单都上榜时只保留一条记录，`来源` 字段并集保留两个出处。 |
+| GitHub 项目（Trendshift） | 抓取 `trendshift.io` 的 weekly、monthly 两个榜单，解析页面内嵌的结构化数据；按规范化仓库 URL 与 GitHub Trending 结果合并去重。 | `stars >= 1000` 且榜期内涨星 `>= 500`，再完成 AI 增强后入库；AI 相关性由 AI 增强环节判定，非 AI 项目在该环节被拒绝。 | 同一仓库两个榜单都上榜时只保留一条记录，`来源` 字段并集保留两个出处。 |
 | WayToAGI 文章 | 优先抓取 WayToAGI 飞书 Wiki 的近 7 日更新，按 URL 或标题去重。 | 如果是新文章，完成 AI 增强后入库。 | Wiki 文档会抓取正文摘要供 AI 总结使用。 |
 | SkillHub Skills | 优先抓取 SkillHub API 综合排序前 200 条，按 `slug` 去重。 | 如果是新 skill，安装量必须 `> 1500`，完成 AI 增强后入库。 | 已存在 skill 不重复入库，只在发现旧链接不规范时修正地址。 |
 
