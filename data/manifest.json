@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-24T00:00:00.000Z",
+  "generated_at": "2026-08-25T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 8190,
-    "details.github": 881,
-    "details.articles": 823,
-    "details.news": 2387,
-    "details.skills": 3815,
-    "briefings": 147,
-    "audio": 137
+    "search": 8250,
+    "details.github": 885,
+    "details.articles": 835,
+    "details.news": 2408,
+    "details.skills": 3836,
+    "briefings": 148,
+    "audio": 138
   },
   "latest": {
-    "github": "github:vorssaint/vorssaint-utils",
-    "article": "article:2026-08-21-91bab24c",
-    "news": "news:2026-08-24-79364b98",
-    "skill": "skill:lchworbuddyclearwindows",
-    "briefing": "briefing:2026-08-24",
-    "audio": "audio:2026-08-24"
+    "github": "github:b-nnett/grok-bot-0.18-reconstructed",
+    "article": "article:2026-08-23-2ef77c0a",
+    "news": "news:2026-08-25-db506808",
+    "skill": "skill:super-thesis-tutor",
+    "briefing": "briefing:2026-08-25",
+    "audio": "audio:2026-08-25"
   },
   "policy": {
     "excluded_fields": [
