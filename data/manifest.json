@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-25T00:00:00.000Z",
+  "generated_at": "2026-08-26T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 8243,
-    "details.github": 885,
+    "search": 8302,
+    "details.github": 893,
     "details.articles": 828,
-    "details.news": 2408,
-    "details.skills": 3836,
-    "briefings": 148,
-    "audio": 138
+    "details.news": 2429,
+    "details.skills": 3864,
+    "briefings": 149,
+    "audio": 139
   },
   "latest": {
-    "github": "github:b-nnett/grok-bot-0.18-reconstructed",
+    "github": "github:wafer-ai/gpu-perf-engineering-resources",
     "article": "article:2026-08-23-2ef77c0a",
-    "news": "news:2026-08-25-db506808",
-    "skill": "skill:super-thesis-tutor",
-    "briefing": "briefing:2026-08-25",
-    "audio": "audio:2026-08-25"
+    "news": "news:2026-08-26-b9fbf0fc",
+    "skill": "skill:luban-skill-pro",
+    "briefing": "briefing:2026-08-26",
+    "audio": "audio:2026-08-26"
   },
   "policy": {
     "excluded_fields": [
