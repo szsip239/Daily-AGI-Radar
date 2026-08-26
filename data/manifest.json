@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-26T00:00:00.000Z",
+  "generated_at": "2026-08-27T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 8302,
-    "details.github": 893,
-    "details.articles": 828,
-    "details.news": 2429,
-    "details.skills": 3864,
-    "briefings": 149,
-    "audio": 139
+    "search": 8371,
+    "details.github": 897,
+    "details.articles": 839,
+    "details.news": 2450,
+    "details.skills": 3895,
+    "briefings": 150,
+    "audio": 140
   },
   "latest": {
-    "github": "github:wafer-ai/gpu-perf-engineering-resources",
-    "article": "article:2026-08-23-2ef77c0a",
-    "news": "news:2026-08-26-b9fbf0fc",
-    "skill": "skill:luban-skill-pro",
-    "briefing": "briefing:2026-08-26",
-    "audio": "audio:2026-08-26"
+    "github": "github:bookorbit/bookorbit",
+    "article": "article:2026-08-25-c68d8173",
+    "news": "news:2026-08-27-db506808",
+    "skill": "skill:ecommerce-img-gen",
+    "briefing": "briefing:2026-08-27",
+    "audio": "audio:2026-08-27"
   },
   "policy": {
     "excluded_fields": [
