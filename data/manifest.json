@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-27T00:00:00.000Z",
+  "generated_at": "2026-08-28T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 8371,
-    "details.github": 897,
-    "details.articles": 839,
-    "details.news": 2450,
-    "details.skills": 3895,
-    "briefings": 150,
-    "audio": 140
+    "search": 8504,
+    "details.github": 903,
+    "details.articles": 846,
+    "details.news": 2473,
+    "details.skills": 3990,
+    "briefings": 151,
+    "audio": 141
   },
   "latest": {
-    "github": "github:bookorbit/bookorbit",
-    "article": "article:2026-08-25-c68d8173",
-    "news": "news:2026-08-27-db506808",
-    "skill": "skill:ecommerce-img-gen",
-    "briefing": "briefing:2026-08-27",
-    "audio": "audio:2026-08-27"
+    "github": "github:zedeus/nitter",
+    "article": "article:2026-08-26-ca3a6349",
+    "news": "news:2026-08-28-db506808",
+    "skill": "skill:stock-value-invest",
+    "briefing": "briefing:2026-08-28",
+    "audio": "audio:2026-08-28"
   },
   "policy": {
     "excluded_fields": [
