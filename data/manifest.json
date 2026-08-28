@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-28T00:00:00.000Z",
+  "generated_at": "2026-08-29T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 8504,
-    "details.github": 903,
-    "details.articles": 846,
-    "details.news": 2473,
-    "details.skills": 3990,
-    "briefings": 151,
-    "audio": 141
+    "search": 8567,
+    "details.github": 907,
+    "details.articles": 850,
+    "details.news": 2494,
+    "details.skills": 4022,
+    "briefings": 152,
+    "audio": 142
   },
   "latest": {
-    "github": "github:zedeus/nitter",
-    "article": "article:2026-08-26-ca3a6349",
-    "news": "news:2026-08-28-db506808",
-    "skill": "skill:stock-value-invest",
-    "briefing": "briefing:2026-08-28",
-    "audio": "audio:2026-08-28"
+    "github": "github:swoole/typephp",
+    "article": "article:2026-08-27-510234bf",
+    "news": "news:2026-08-29-876a2118",
+    "skill": "skill:ori-ai-product-design",
+    "briefing": "briefing:2026-08-29",
+    "audio": "audio:2026-08-29"
   },
   "policy": {
     "excluded_fields": [
