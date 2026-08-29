@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T00:00:00.000Z",
+  "generated_at": "2026-08-30T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 8567,
-    "details.github": 907,
-    "details.articles": 850,
+    "search": 8612,
+    "details.github": 908,
+    "details.articles": 856,
     "details.news": 2494,
-    "details.skills": 4022,
-    "briefings": 152,
-    "audio": 142
+    "details.skills": 4058,
+    "briefings": 153,
+    "audio": 143
   },
   "latest": {
-    "github": "github:swoole/typephp",
-    "article": "article:2026-08-27-510234bf",
-    "news": "news:2026-08-29-876a2118",
-    "skill": "skill:ori-ai-product-design",
-    "briefing": "briefing:2026-08-29",
-    "audio": "audio:2026-08-29"
+    "github": "github:omacom/omarchy",
+    "article": "article:2026-08-28-288eed0d",
+    "news": "news:2026-08-30-876a2118",
+    "skill": "skill:z-wps-cloud-docs",
+    "briefing": "briefing:2026-08-30",
+    "audio": "audio:2026-08-30"
   },
   "policy": {
     "excluded_fields": [
