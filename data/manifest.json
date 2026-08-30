@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-30T00:00:00.000Z",
+  "generated_at": "2026-08-31T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 8612,
-    "details.github": 908,
+    "search": 8633,
+    "details.github": 918,
     "details.articles": 856,
     "details.news": 2494,
-    "details.skills": 4058,
-    "briefings": 153,
-    "audio": 143
+    "details.skills": 4067,
+    "briefings": 154,
+    "audio": 144
   },
   "latest": {
-    "github": "github:omacom/omarchy",
+    "github": "github:sapientinc/PRAXIST",
     "article": "article:2026-08-28-288eed0d",
-    "news": "news:2026-08-30-876a2118",
-    "skill": "skill:z-wps-cloud-docs",
-    "briefing": "briefing:2026-08-30",
-    "audio": "audio:2026-08-30"
+    "news": "news:2026-08-31-253efc5a",
+    "skill": "skill:excel-data-wizard",
+    "briefing": "briefing:2026-08-31",
+    "audio": "audio:2026-08-31"
   },
   "policy": {
     "excluded_fields": [
