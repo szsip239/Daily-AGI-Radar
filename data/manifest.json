@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-31T00:00:00.000Z",
+  "generated_at": "2026-09-01T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 8633,
-    "details.github": 918,
+    "search": 8682,
+    "details.github": 923,
     "details.articles": 856,
-    "details.news": 2494,
-    "details.skills": 4067,
-    "briefings": 154,
-    "audio": 144
+    "details.news": 2515,
+    "details.skills": 4088,
+    "briefings": 155,
+    "audio": 145
   },
   "latest": {
-    "github": "github:sapientinc/PRAXIST",
+    "github": "github:yanliudesign/mono-color-skill",
     "article": "article:2026-08-28-288eed0d",
-    "news": "news:2026-08-31-253efc5a",
-    "skill": "skill:excel-data-wizard",
-    "briefing": "briefing:2026-08-31",
-    "audio": "audio:2026-08-31"
+    "news": "news:2026-09-01-253efc5a",
+    "skill": "skill:great-master",
+    "briefing": "briefing:2026-09-01",
+    "audio": "audio:2026-09-01"
   },
   "policy": {
     "excluded_fields": [
