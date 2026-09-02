@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T00:00:00.000Z",
+  "generated_at": "2026-09-03T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 8760,
-    "details.github": 936,
+    "search": 8812,
+    "details.github": 945,
     "details.articles": 873,
-    "details.news": 2536,
-    "details.skills": 4113,
-    "briefings": 156,
-    "audio": 146
+    "details.news": 2557,
+    "details.skills": 4133,
+    "briefings": 157,
+    "audio": 147
   },
   "latest": {
-    "github": "github:youssofal/MTPLX",
+    "github": "github:zyronon/TypeWords",
     "article": "article:2026-08-31-8dc4a41c",
-    "news": "news:2026-09-02-253efc5a",
-    "skill": "skill:wacx-distillation",
-    "briefing": "briefing:2026-09-02",
-    "audio": "audio:2026-09-02"
+    "news": "news:2026-09-03-253efc5a",
+    "skill": "skill:anti-fraud",
+    "briefing": "briefing:2026-09-03",
+    "audio": "audio:2026-09-03"
   },
   "policy": {
     "excluded_fields": [
