@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-03T00:00:00.000Z",
+  "generated_at": "2026-09-04T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 8812,
-    "details.github": 945,
-    "details.articles": 873,
-    "details.news": 2557,
-    "details.skills": 4133,
-    "briefings": 157,
-    "audio": 147
+    "search": 8893,
+    "details.github": 951,
+    "details.articles": 887,
+    "details.news": 2578,
+    "details.skills": 4171,
+    "briefings": 158,
+    "audio": 148
   },
   "latest": {
-    "github": "github:zyronon/TypeWords",
-    "article": "article:2026-08-31-8dc4a41c",
-    "news": "news:2026-09-03-253efc5a",
-    "skill": "skill:anti-fraud",
-    "briefing": "briefing:2026-09-03",
-    "audio": "audio:2026-09-03"
+    "github": "github:zvec-ai/zvec-grep",
+    "article": "article:2026-09-02-5d040c0c",
+    "news": "news:2026-09-04-253efc5a",
+    "skill": "skill:ad-factor-analysis",
+    "briefing": "briefing:2026-09-04",
+    "audio": "audio:2026-09-04"
   },
   "policy": {
     "excluded_fields": [
