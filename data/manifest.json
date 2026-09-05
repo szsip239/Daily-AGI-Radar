@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T00:00:00.000Z",
+  "generated_at": "2026-09-06T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 8915,
-    "details.github": 956,
+    "search": 8950,
+    "details.github": 959,
     "details.articles": 893,
-    "details.news": 2578,
-    "details.skills": 4180,
-    "briefings": 159,
-    "audio": 149
+    "details.news": 2601,
+    "details.skills": 4187,
+    "briefings": 160,
+    "audio": 150
   },
   "latest": {
-    "github": "github:sgl-project/sglang",
+    "github": "github:lnkiai/m3e-canvas",
     "article": "article:2026-09-03-ec5ad6e7",
-    "news": "news:2026-09-05-253efc5a",
-    "skill": "skill:wechat-cli",
-    "briefing": "briefing:2026-09-05",
-    "audio": "audio:2026-09-05"
+    "news": "news:2026-09-06-ad20f5f6",
+    "skill": "skill:invoice-from-email",
+    "briefing": "briefing:2026-09-06",
+    "audio": "audio:2026-09-06"
   },
   "policy": {
     "excluded_fields": [
