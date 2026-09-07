@@ -5,6 +5,7 @@ import { loadFeed, loadManifest } from "./feeds.js";
 import { CliError } from "./errors.js";
 import { feedForType, parseHandle } from "./handles.js";
 import { writeAtomic } from "./cache.js";
+import { loadResearchRecords } from "./research.js";
 
 export async function getResource(options: {
   handle: string;
@@ -47,6 +48,14 @@ export async function getResource(options: {
 }
 
 async function latestHandle(type: string, noCache?: boolean): Promise<string> {
+  if (type === "research") {
+    const records = await loadResearchRecords({ noCache });
+    const latest = [...records].sort((a, b) =>
+      String(b.signal_date).localeCompare(String(a.signal_date)) || a.handle.localeCompare(b.handle),
+    )[0];
+    if (!latest) throw new CliError("not_found", "No research records found.");
+    return latest.handle;
+  }
   const manifest = await loadManifest({ noCache });
   const fromManifest = manifest.latest?.[type];
   if (fromManifest) return fromManifest;
@@ -66,7 +75,9 @@ async function latestHandle(type: string, noCache?: boolean): Promise<string> {
 
 async function findRecord(handle: string, noCache?: boolean): Promise<Record<string, unknown>> {
   const parsed = parseHandle(handle);
-  const records = await loadFeed<Record<string, unknown>>(feedForType(parsed.type), { noCache });
+  const records = parsed.type === "research"
+    ? await loadResearchRecords({ noCache })
+    : await loadFeed<Record<string, unknown>>(feedForType(parsed.type), { noCache });
   const record = records.find((candidate) => candidate.handle === handle);
   if (!record) {
     throw new CliError("not_found", `Resource not found: ${handle}`, { handle });

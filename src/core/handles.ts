@@ -13,6 +13,7 @@ const SUPPORTED = new Set([
   "skill",
   "briefing",
   "audio",
+  "research",
 ]);
 
 export function parseHandle(handle: string): ParsedHandle {
@@ -47,6 +48,8 @@ export function feedForType(type: string): string {
       return "briefings";
     case "audio":
       return "audio";
+    case "research":
+      return "research";
     default:
       throw new CliError("unsupported_handle", `Unsupported resource type: ${type}`, { type });
   }

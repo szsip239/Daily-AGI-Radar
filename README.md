@@ -14,6 +14,28 @@
 
 两种方式读取的是同一批每日沉淀内容：GitHub 项目、精选文章、SkillHub skills、AI 新闻、Markdown 日报和 MP3 播客。
 
+## AI课题调研
+
+新增独立的 [AI课题调研模块](research/README.md)，首批收录 **31 个课题**，覆盖 2026-07-26 至 2026-09-07 的 Kimi 应用、Agent 工具、个人记忆、可视化、行业 AI 与开发环境研究。每个课题一篇独立 Markdown，包含调研问题、结论、证据边界、沿革与后续验证。
+
+- [Kimi 数据画板与可视题解：原理及复刻](research/records/kimi-apps-webmcp.md)
+- [个人 AI 记忆层](research/records/personal-agent-memory.md)
+- [Graphify 与 Archify 质量复盘](research/records/graphify-archify-evidence-quality.md)
+- [完整课题索引](research/README.md) · [收录范围](research/COVERAGE.md) · [维护说明](research/AUTHORING.md)
+
+本模块独立于每日榜单，历史结论保留原调研日期，不代表今天重新核验。公开记录不包含原始私人会话或客户材料。
+
+从本仓库构建的 CLI 支持：
+
+```bash
+npm run build
+node dist/cli.js search "Kimi" --type research --json
+node dist/cli.js get research:kimi-apps-webmcp --json
+node dist/cli.js get research:latest --json
+```
+
+默认数据源为 GitHub，需先同步包含本模块的仓库版本；本地预览可设置 `AGI_RADAR_MANIFEST_URL=file:///absolute/path/to/checkout/data/manifest.json` 并使用独立缓存。既有 npm 版本需待新版本发布后才支持 `research`；Markdown 可直接阅读。
+
 ## 数据从哪里来
 
 目前每日管线会固定处理这些来源（仓库每日更新完成时间约在凌晨1点，你可以让你的agent在每日凌晨1点或以后拉去最新数据或者日报/mp3）：

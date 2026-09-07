@@ -96,6 +96,14 @@ _Avoid_: full text, copied article
 A daily public summary of selected signals.
 _Avoid_: report, newsletter
 
+**Research Topic**:
+A bounded question about an AI application, project, or supporting workflow, investigated across one or more research sessions.
+_Avoid_: daily news item, raw conversation
+
+**Research Record**:
+A curated, independently readable account of one Research Topic, preserving findings, public evidence, uncertainty, research date, and further verification needs.
+_Avoid_: transcript export, current product guarantee
+
 **Signal Date**:
 The public natural-day date assigned to a signal in Asia/Shanghai time.
 _Avoid_: timestamp, scrape time
@@ -121,6 +129,8 @@ _Avoid_: timestamp, scrape time
 - A **Submission Duplicate** is rejected before creating a submission issue.
 - A **Local Submission Check** does not fetch deep metadata, score quality, or approve a submission.
 - A **Briefing** summarises multiple **Signals** for one day.
+- A **Research Record** is a published **Signal** about one **Research Topic**, and may consolidate several historical research sessions.
+- A **Research Record** preserves the date of the research; compiling or formatting it does not imply that its findings were re-verified.
 - A third-party **Signal** may expose a **Summary** without exposing the source's full text.
 - A **Reader** primarily fetches signals from the **Raw Feed**.
 - A **Pages Site** presents the same published signals for human browsing.

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "module": "AI课题调研",
+  "feeds": {
+    "research": {
+      "url": "index.jsonl",
+      "gz_url": "index.jsonl.gz"
+    }
+  },
+  "counts": {
+    "research": 31
+  },
+  "latest": {
+    "research": "research:kimi-apps-webmcp"
+  },
+  "policy": "Historical research snapshots, curated from prior research; dates are not publication or re-verification dates."
+}

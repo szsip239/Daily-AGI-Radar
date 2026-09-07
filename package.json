@@ -28,10 +28,12 @@
     "search"
   ],
   "scripts": {
+    "research:build": "node scripts/build-research.mjs",
+    "research:check": "node scripts/build-research.mjs --check",
     "build": "tsc -p tsconfig.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test",
-    "test": "npm run build && vitest run",
+    "test": "npm run research:check && npm run build && vitest run",
     "test:watch": "vitest"
   },
   "dependencies": {

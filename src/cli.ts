@@ -13,6 +13,7 @@ import {
 import { failure, printJson, success } from "./core/envelope.js";
 import { CliError, toCliError } from "./core/errors.js";
 import { syncFeeds } from "./core/feeds.js";
+import { syncResearch } from "./core/research.js";
 import { getResource } from "./core/get.js";
 import { searchRecords } from "./core/search.js";
 import { submitResource, SubmissionKind } from "./core/submit.js";
@@ -20,6 +21,7 @@ import { submitResource, SubmissionKind } from "./core/submit.js";
 type CommonOptions = {
   json?: boolean;
   noCache?: boolean;
+  cache?: boolean;
 };
 
 const VERSION = "0.1.1";
@@ -132,7 +134,11 @@ program
   .option("--no-cache", "force remote fetch")
   .option("--json", "print machine-readable JSON")
   .action((options: CommonOptions & { all?: boolean }) =>
-    run("sync", options, () => syncFeeds({ all: options.all, noCache: options.noCache })),
+    run("sync", options, async () => {
+      const result = await syncFeeds({ all: options.all, noCache: options.cache === false || options.noCache });
+      if (options.all) result.feeds.push(...await syncResearch());
+      return result;
+    }),
   );
 
 program
@@ -161,7 +167,7 @@ program
         to: options.to,
         limit: options.limit,
         brief: options.brief,
-        noCache: options.noCache,
+        noCache: options.cache === false || options.noCache,
       }),
     ),
   );
@@ -178,7 +184,7 @@ program
       getResource({
         handle,
         download: options.download,
-        noCache: options.noCache,
+        noCache: options.cache === false || options.noCache,
       }),
     ),
   );

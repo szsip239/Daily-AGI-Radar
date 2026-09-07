@@ -1,4 +1,5 @@
 import MiniSearch from "minisearch";
+import { loadResearchRecords } from "./research.js";
 import { loadFeed, SearchRecord } from "./feeds.js";
 
 type IndexedSearchRecord = SearchRecord & {
@@ -350,7 +351,12 @@ export async function searchRecords(options: {
   noCache?: boolean;
 }): Promise<{ query: string; limit: number; brief: boolean; results: unknown[] }> {
   const limit = Math.min(Math.max(options.limit ?? 10, 1), 50);
-  const records = (await loadFeed<SearchRecord>("search", { noCache: options.noCache })).filter((record) => {
+  const [daily, research] = await Promise.all([
+    options.type === "research" ? [] : loadFeed<SearchRecord>("search", { noCache: options.noCache }),
+    !options.type || options.type === "research"
+      ? loadResearchRecords({ noCache: options.noCache, optional: options.type !== "research" }) : [],
+  ]);
+  const records = [...daily, ...research].filter((record) => {
     if (options.type && record.type !== options.type) return false;
     if (options.from && record.signal_date && record.signal_date < options.from) return false;
     if (options.to && record.signal_date && record.signal_date > options.to) return false;
@@ -389,7 +395,8 @@ export async function searchRecords(options: {
     const projection = projectionFromHit(candidate.record);
     let record: unknown = projection;
     if (!options.brief) {
-      record = (await findDetailRecord(projection)) ?? projection;
+      record = candidate.record.type === "research"
+        ? candidate.record : (await findDetailRecord(projection)) ?? projection;
     }
     const baseResult = {
       index: i + 1,

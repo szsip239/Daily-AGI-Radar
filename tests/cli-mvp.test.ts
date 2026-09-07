@@ -261,6 +261,87 @@ function runCli(args: string[], env: NodeJS.ProcessEnv): Promise<{
 }
 
 describe("agi-radar MVP CLI", () => {
+  function researchRoutes() {
+    const record = {
+      handle: "research:kimi-apps-webmcp", type: "research", title: "Kimi 数据画板与可视题解",
+      signal_date: "2026-09-07", summary: "WebMCP 结构化绘图与沙箱题解",
+      source: "AI课题调研", detail_feed: "research", detail_key: "kimi-apps-webmcp",
+      search_keywords: ["WebMCP", "数据画板"], body_markdown: "# 研究\n\n原理及验证边界。",
+    };
+    return {
+      record,
+      routes: {
+        "/research/manifest.json": JSON.stringify({
+          feeds: { research: { url: "index.jsonl", gz_url: "index.jsonl.gz" } },
+        }),
+        "/research/index.jsonl": jsonl([record]),
+        "/research/index.jsonl.gz": gzipSync(jsonl([record])),
+      },
+    };
+  }
+
+  it("searches and gets the independent research module without daily feeds", async () => {
+    const data = researchRoutes();
+    const { baseUrl, requests } = await startServer(data.routes);
+    const { env } = tempEnv(baseUrl);
+    const result = await runCli(["search", "数据画板", "--type", "research", "--json"], env);
+    expect(result.status).toBe(0);
+    expect(result.json.data.results[0].record.body_markdown).toContain("验证边界");
+    const brief = await runCli(["search", "WebMCP", "--type", "research", "--brief", "--json"], env);
+    expect(brief.json.data.results[0].body_markdown).toBeUndefined();
+    expect(brief.json.data.results[0].record).toBeUndefined();
+    const get = await runCli(["get", data.record.handle, "--json"], env);
+    expect(get.json.data.record).toEqual(data.record);
+    const latest = await runCli(["get", "research:latest", "--json"], env);
+    expect(latest.json.data.handle).toBe(data.record.handle);
+    const missing = await runCli(["get", "research:missing", "--json"], env);
+    expect(missing.json.error.code).toBe("not_found");
+    expect(requests.some((request) => request.path === "/manifest.json")).toBe(false);
+  });
+
+  it("merges research into general search and syncs it independently of the daily manifest", async () => {
+    const research = researchRoutes();
+    const daily = fixtureData("http://127.0.0.1");
+    const { baseUrl } = await startServer({ ...daily.routes, ...research.routes });
+    const { env } = tempEnv(baseUrl);
+    const result = await runCli(["search", "WebMCP", "--json"], env);
+    expect(result.json.data.results[0].handle).toBe(research.record.handle);
+    const sync = await runCli(["sync", "--all", "--no-cache", "--json"], env);
+    expect(sync.json.data.feeds).toContainEqual({ name: "research", status: "updated", records: 1 });
+    const fromDate = await runCli(["search", "Kimi", "--type", "research", "--from", "2026-09-08", "--json"], env);
+    expect(fromDate.json.data.results).toEqual([]);
+  });
+
+  it("uses cached research offline and refreshes it when --no-cache is requested", async () => {
+    const data = researchRoutes();
+    let revision = "first";
+    let offline = false;
+    const { baseUrl } = await startServer({
+      ...data.routes,
+      "/research/index.jsonl.gz": () => offline ? { status: 500 } : gzipSync(jsonl([{ ...data.record, body_markdown: revision }])),
+      "/research/index.jsonl": () => offline ? { status: 500 } : jsonl([{ ...data.record, body_markdown: revision }]),
+    });
+    const { env } = tempEnv(baseUrl);
+    expect((await runCli(["get", data.record.handle, "--json"], env)).json.data.record.body_markdown).toBe("first");
+    offline = true;
+    expect((await runCli(["get", data.record.handle, "--json"], env)).status).toBe(0);
+    expect((await runCli(["get", data.record.handle, "--no-cache", "--json"], env)).status).toBe(1);
+    offline = false;
+    revision = "second";
+    expect((await runCli(["get", data.record.handle, "--no-cache", "--json"], env)).json.data.record.body_markdown).toBe("second");
+  });
+
+  it("does not mask a broken research module as an empty search", async () => {
+    const daily = fixtureData("http://127.0.0.1");
+    const { baseUrl } = await startServer({ ...daily.routes, "/research/manifest.json": { status: 503 } });
+    const { env } = tempEnv(baseUrl);
+    const result = await runCli(["search", "Kimi", "--json"], env);
+    expect(result.status).toBe(1);
+    expect(result.json.error.details.status).toBe(503);
+    // Unrelated type-filtered queries don't require this module.
+    expect((await runCli(["search", "agent", "--type", "github", "--json"], env)).status).toBe(0);
+  });
+
   it("manages config and reports status without exposing tokens", async () => {
     const { baseUrl } = await startServer({});
     const { env } = tempEnv(baseUrl);
