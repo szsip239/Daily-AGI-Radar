@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-06T00:00:00.000Z",
+  "generated_at": "2026-09-07T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 8950,
-    "details.github": 959,
-    "details.articles": 893,
-    "details.news": 2601,
-    "details.skills": 4187,
-    "briefings": 160,
-    "audio": 150
+    "search": 8995,
+    "details.github": 962,
+    "details.articles": 904,
+    "details.news": 2611,
+    "details.skills": 4206,
+    "briefings": 161,
+    "audio": 151
   },
   "latest": {
-    "github": "github:lnkiai/m3e-canvas",
-    "article": "article:2026-09-03-ec5ad6e7",
-    "news": "news:2026-09-06-ad20f5f6",
-    "skill": "skill:invoice-from-email",
-    "briefing": "briefing:2026-09-06",
-    "audio": "audio:2026-09-06"
+    "github": "github:openai/skills",
+    "article": "article:2026-09-05-2abb7048",
+    "news": "news:2026-09-07-9b0fa1f5",
+    "skill": "skill:tool-economy",
+    "briefing": "briefing:2026-09-07",
+    "audio": "audio:2026-09-07"
   },
   "policy": {
     "excluded_fields": [
