@@ -184,3 +184,7 @@ https://raw.githubusercontent.com/szsip239/Daily-AGI-Radar/main/data/manifest.js
 
 
 CLI 实现约定见 [docs/cli-spec.md](docs/cli-spec.md)。
+
+## 依赖安全维护
+
+nanoid、postcss 使用定向安全 overrides，与 package-lock.json 同步维护；升级后以 npm ci、npm test（含 research:check 和构建）验收。2026-09-08 已通过 14 项测试。锁文件更新不代表线上已部署。
