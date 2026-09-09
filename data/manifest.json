@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T00:00:00.000Z",
+  "generated_at": "2026-09-10T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 9132,
-    "details.github": 984,
+    "search": 9180,
+    "details.github": 987,
     "details.articles": 911,
-    "details.news": 2644,
-    "details.skills": 4277,
-    "briefings": 163,
-    "audio": 153
+    "details.news": 2665,
+    "details.skills": 4299,
+    "briefings": 164,
+    "audio": 154
   },
   "latest": {
-    "github": "github:viarotel-org/escrcpy",
+    "github": "github:titanwings/distilly",
     "article": "article:2026-09-08-62148f0c",
-    "news": "news:2026-09-09-ef41155c",
-    "skill": "skill:gaokao-volunteer-plus",
-    "briefing": "briefing:2026-09-09",
-    "audio": "audio:2026-09-09"
+    "news": "news:2026-09-10-ede03536",
+    "skill": "skill:wjx-cli-use",
+    "briefing": "briefing:2026-09-10",
+    "audio": "audio:2026-09-10"
   },
   "policy": {
     "excluded_fields": [
