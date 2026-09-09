@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-08T00:00:00.000Z",
+  "generated_at": "2026-09-09T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 9073,
-    "details.github": 977,
-    "details.articles": 908,
-    "details.news": 2632,
-    "details.skills": 4242,
-    "briefings": 162,
-    "audio": 152
+    "search": 9132,
+    "details.github": 984,
+    "details.articles": 911,
+    "details.news": 2644,
+    "details.skills": 4277,
+    "briefings": 163,
+    "audio": 153
   },
   "latest": {
-    "github": "github:zubair-trabzada/geo-seo-claude",
-    "article": "article:2026-09-07-fc0b4a19",
-    "news": "news:2026-09-08-ef41155c",
-    "skill": "skill:chat-eq-reply",
-    "briefing": "briefing:2026-09-08",
-    "audio": "audio:2026-09-08"
+    "github": "github:viarotel-org/escrcpy",
+    "article": "article:2026-09-08-62148f0c",
+    "news": "news:2026-09-09-ef41155c",
+    "skill": "skill:gaokao-volunteer-plus",
+    "briefing": "briefing:2026-09-09",
+    "audio": "audio:2026-09-09"
   },
   "policy": {
     "excluded_fields": [
