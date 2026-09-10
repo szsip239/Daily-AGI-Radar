@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-10T00:00:00.000Z",
+  "generated_at": "2026-09-11T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 9180,
-    "details.github": 987,
+    "search": 9232,
+    "details.github": 997,
     "details.articles": 911,
-    "details.news": 2665,
-    "details.skills": 4299,
-    "briefings": 164,
+    "details.news": 2688,
+    "details.skills": 4317,
+    "briefings": 165,
     "audio": 154
   },
   "latest": {
-    "github": "github:titanwings/distilly",
+    "github": "github:sdli1995/dlssg_for_sm86",
     "article": "article:2026-09-08-62148f0c",
-    "news": "news:2026-09-10-ede03536",
-    "skill": "skill:wjx-cli-use",
-    "briefing": "briefing:2026-09-10",
+    "news": "news:2026-09-11-ede03536",
+    "skill": "skill:reading-notes-cn",
+    "briefing": "briefing:2026-09-11",
     "audio": "audio:2026-09-10"
   },
   "policy": {
