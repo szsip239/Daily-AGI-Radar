@@ -20,6 +20,14 @@ _Avoid_: trigger mode, crawl mode, 定期抓取
 The case-insensitive `owner/repo` form used to decide whether two source records describe the same GitHub project.
 _Avoid_: repository URL, project name string
 
+**Board Date**:
+The UTC calendar date selected for a Trendshift daily ranking. It is separate from the local Signal Date on which a project is added to the library.
+_Avoid_: report date, ingestion date
+
+**Pending GitHub Write**:
+A collected GitHub project whose admission to the curation store has not yet completed. It can be retried after processing failures and leaves this set once its presence in the store is confirmed.
+_Avoid_: reserve ranking, waitlisted project
+
 **Signal ID**:
 A stable public identifier for a signal, formed from its type and business key.
 _Avoid_: Feishu record ID, table row ID
