@@ -56,9 +56,13 @@ node dist/cli.js get research:latest --json
 | 类型 | 采集范围 | 入库条件 | 说明 |
 | --- | --- | --- | --- |
 | GitHub 项目 | 抓取 GitHub Trending 的 daily、weekly、monthly 三个榜单，按规范化后的 `owner/repo` 去重合并（大小写不敏感）；同一项目会合并趋势类型，并保留最大的 `stars增加`；同时抓取 README 前 3000 字作为 AI 增强上下文。 | 如果是新项目，完成 AI 增强后入库。 | 已存在项目不会重复入库，但会用于记录当日 star 增长和日报展示。 |
-| GitHub 项目（Trendshift） | 抓取 `trendshift.io` 的 weekly、monthly 两个榜单，解析页面内嵌的结构化数据；按规范化仓库 URL 与 GitHub Trending 结果合并去重。 | `stars >= 1000` 且榜期内涨星 `>= 500`，再完成 AI 增强后入库；AI 相关性由 AI 增强环节判定，非 AI 项目在该环节被拒绝。 | 同一仓库两个榜单都上榜时只保留一条记录，`来源` 字段并集保留两个出处。 |
+| GitHub 项目（Trendshift） | 抓取 `trendshift.io/` 日榜和 `/weekly`、`/monthly` 周月榜，解析页面内嵌的结构化数据；按规范化仓库 URL 与 GitHub Trending 结果合并去重。 | `stars >= 1000` 且榜期内涨星 `>= 500`，分类与摘要完整后入库；当前 GitHub 写入分支未执行 `_write_feishu` 相关性过滤，不能视为严格的 AI-only 集合。 | 同一仓库多个榜单都上榜时只保留一条记录，`来源` 字段并集保留两个出处。 |
 | WayToAGI 文章 | 优先抓取 WayToAGI 飞书 Wiki 的近 7 日更新，按 URL 或标题去重。 | 如果是新文章，完成 AI 增强后入库。 | Wiki 文档会抓取正文摘要供 AI 总结使用。 |
 | SkillHub Skills | 优先抓取 SkillHub API 综合排序前 200 条，按 `slug` 去重。 | 如果是新 skill，安装量必须 `> 1500`，完成 AI 增强后入库。 | 已存在 skill 不重复入库，只在发现旧链接不规范时修正地址。 |
+
+GitHub 新上榜按自然日累计首次入库项目，同日重跑或项目落榜不会清除已新增项目。两个来源逐榜保存网页与解析快照；未完成入库的候选保留待处理，单榜失败会阻止发布不完整日报。
+
+当前凌晨 00:30（UTC+8）采集的是当时快照，不保证前一天完整日榜。Trendshift 日榜按 UTC 日期，GitHub 当前日界与定稿时间未获官方明确保证；详见[日榜时间核查](docs/audits/daily-board-timing-2026-09-10.md)。
 
 ## 当前已经有多少数据
 

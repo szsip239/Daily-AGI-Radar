@@ -96,6 +96,10 @@ _Avoid_: full text, copied article
 A daily public summary of selected signals.
 _Avoid_: report, newsletter
 
+**Daily GitHub Addition**:
+A GitHub project first written to the curation store on a given Signal Date. It remains an addition for that day across repeated runs and after leaving a ranking board.
+_Avoid_: last-run addition, current-board project
+
 **Research Topic**:
 A bounded question about an AI application, project, or supporting workflow, investigated across one or more research sessions.
 _Avoid_: daily news item, raw conversation
