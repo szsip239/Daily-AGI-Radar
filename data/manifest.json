@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T00:00:00.000Z",
+  "generated_at": "2026-09-12T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 9232,
-    "details.github": 997,
-    "details.articles": 911,
-    "details.news": 2688,
-    "details.skills": 4317,
-    "briefings": 165,
-    "audio": 154
+    "search": 9345,
+    "details.github": 1009,
+    "details.articles": 920,
+    "details.news": 2714,
+    "details.skills": 4381,
+    "briefings": 166,
+    "audio": 155
   },
   "latest": {
-    "github": "github:sdli1995/dlssg_for_sm86",
-    "article": "article:2026-09-08-62148f0c",
-    "news": "news:2026-09-11-ede03536",
-    "skill": "skill:reading-notes-cn",
-    "briefing": "briefing:2026-09-11",
-    "audio": "audio:2026-09-10"
+    "github": "github:torvalds/linux",
+    "article": "article:2026-09-10-9f89ecaf",
+    "news": "news:2026-09-12-490b6c24",
+    "skill": "skill:crossborder-listing",
+    "briefing": "briefing:2026-09-12",
+    "audio": "audio:2026-09-12"
   },
   "policy": {
     "excluded_fields": [
