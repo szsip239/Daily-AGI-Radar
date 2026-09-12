@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T00:00:00.000Z",
+  "generated_at": "2026-09-13T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 9345,
-    "details.github": 1009,
+    "search": 9379,
+    "details.github": 1025,
     "details.articles": 920,
     "details.news": 2714,
-    "details.skills": 4381,
-    "briefings": 166,
-    "audio": 155
+    "details.skills": 4397,
+    "briefings": 167,
+    "audio": 156
   },
   "latest": {
-    "github": "github:torvalds/linux",
+    "github": "github:yuliskov/SmartTube",
     "article": "article:2026-09-10-9f89ecaf",
-    "news": "news:2026-09-12-490b6c24",
-    "skill": "skill:crossborder-listing",
-    "briefing": "briefing:2026-09-12",
-    "audio": "audio:2026-09-12"
+    "news": "news:2026-09-13-490b6c24",
+    "skill": "skill:xftj-transcribe",
+    "briefing": "briefing:2026-09-13",
+    "audio": "audio:2026-09-13"
   },
   "policy": {
     "excluded_fields": [
