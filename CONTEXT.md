@@ -25,12 +25,8 @@ The UTC calendar date selected for a Trendshift daily ranking. It is separate fr
 _Avoid_: report date, ingestion date
 
 **Pending GitHub Write**:
-A collected GitHub project whose admission to the curation store has not yet completed. It can be retried after processing failures and leaves this set once its presence in the store is confirmed or an evidence-based quarantine decision resolves it.
+A collected GitHub project whose admission to the curation store has not yet completed. It can be retried after processing failures and leaves this set once its presence in the store is confirmed.
 _Avoid_: reserve ranking, waitlisted project
-
-**Quarantined Project**:
-A collected project held out of normal admission and recommendation because of dangerous installation evidence or insufficient information for review. Quarantine preserves evidence and is not a declaration that a payload has been proven malicious.
-_Avoid_: failed database write, confirmed malware
 
 **Signal ID**:
 A stable public identifier for a signal, formed from its type and business key.
