@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T00:00:00.000Z",
+  "generated_at": "2026-09-15T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 9417,
-    "details.github": 1030,
-    "details.articles": 924,
-    "details.news": 2714,
-    "details.skills": 4424,
-    "briefings": 168,
-    "audio": 157
+    "search": 9459,
+    "details.github": 1036,
+    "details.articles": 926,
+    "details.news": 2735,
+    "details.skills": 4435,
+    "briefings": 169,
+    "audio": 158
   },
   "latest": {
-    "github": "github:tonhowtf/omniget",
-    "article": "article:2026-09-12-5e9190da",
-    "news": "news:2026-09-14-490b6c24",
-    "skill": "skill:chengeng-moments",
-    "briefing": "briefing:2026-09-14",
-    "audio": "audio:2026-09-14"
+    "github": "github:rlaope/oh-my-hermes",
+    "article": "article:2026-09-13-a7c9f0e3",
+    "news": "news:2026-09-15-fcb3eba6",
+    "skill": "skill:tutu-financial-report-risk-scan",
+    "briefing": "briefing:2026-09-15",
+    "audio": "audio:2026-09-15"
   },
   "policy": {
     "excluded_fields": [
