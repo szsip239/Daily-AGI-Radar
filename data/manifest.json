@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T00:00:00.000Z",
+  "generated_at": "2026-09-18T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 9625,
-    "details.github": 1050,
+    "search": 9668,
+    "details.github": 1056,
     "details.articles": 943,
-    "details.news": 2777,
-    "details.skills": 4524,
-    "briefings": 171,
-    "audio": 160
+    "details.news": 2800,
+    "details.skills": 4536,
+    "briefings": 172,
+    "audio": 161
   },
   "latest": {
-    "github": "github:qingjian-team/qingjian",
+    "github": "github:latent-spaces/brag",
     "article": "article:2026-09-15-a9c76586",
-    "news": "news:2026-09-17-c6ab1364",
-    "skill": "skill:parenting-expert",
-    "briefing": "briefing:2026-09-17",
-    "audio": "audio:2026-09-17"
+    "news": "news:2026-09-18-e9f6eadb",
+    "skill": "skill:focusnoteapp",
+    "briefing": "briefing:2026-09-18",
+    "audio": "audio:2026-09-18"
   },
   "policy": {
     "excluded_fields": [
