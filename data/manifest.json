@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T00:00:00.000Z",
+  "generated_at": "2026-09-20T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 9707,
-    "details.github": 1061,
+    "search": 9729,
+    "details.github": 1071,
     "details.articles": 947,
     "details.news": 2823,
-    "details.skills": 4541,
-    "briefings": 173,
-    "audio": 162
+    "details.skills": 4551,
+    "briefings": 174,
+    "audio": 163
   },
   "latest": {
-    "github": "github:tradesdontlie/tradingview-mcp",
+    "github": "github:yi1108/printfilm",
     "article": "article:2026-09-17-263d16f2",
-    "news": "news:2026-09-19-e9f6eadb",
-    "skill": "skill:luhe-paper-free-pro",
-    "briefing": "briefing:2026-09-19",
-    "audio": "audio:2026-09-19"
+    "news": "news:2026-09-20-e9f6eadb",
+    "skill": "skill:openclaw-v2",
+    "briefing": "briefing:2026-09-20",
+    "audio": "audio:2026-09-20"
   },
   "policy": {
     "excluded_fields": [
