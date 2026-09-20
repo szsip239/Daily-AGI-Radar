@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T00:00:00.000Z",
+  "generated_at": "2026-09-21T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 9729,
-    "details.github": 1071,
-    "details.articles": 947,
-    "details.news": 2823,
-    "details.skills": 4551,
-    "briefings": 174,
-    "audio": 163
+    "search": 9785,
+    "details.github": 1076,
+    "details.articles": 959,
+    "details.news": 2844,
+    "details.skills": 4567,
+    "briefings": 175,
+    "audio": 164
   },
   "latest": {
-    "github": "github:yi1108/printfilm",
-    "article": "article:2026-09-17-263d16f2",
-    "news": "news:2026-09-20-e9f6eadb",
-    "skill": "skill:openclaw-v2",
-    "briefing": "briefing:2026-09-20",
-    "audio": "audio:2026-09-20"
+    "github": "github:vercel-labs/json-render",
+    "article": "article:2026-09-19-4da1b8af",
+    "news": "news:2026-09-21-e9f6eadb",
+    "skill": "skill:gaokao-smath-master-yang",
+    "briefing": "briefing:2026-09-21",
+    "audio": "audio:2026-09-21"
   },
   "policy": {
     "excluded_fields": [
