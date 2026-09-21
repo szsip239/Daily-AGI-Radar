@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T00:00:00.000Z",
+  "generated_at": "2026-09-22T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 9785,
-    "details.github": 1076,
-    "details.articles": 959,
-    "details.news": 2844,
-    "details.skills": 4567,
-    "briefings": 175,
-    "audio": 164
+    "search": 9885,
+    "details.github": 1092,
+    "details.articles": 965,
+    "details.news": 2867,
+    "details.skills": 4620,
+    "briefings": 176,
+    "audio": 165
   },
   "latest": {
-    "github": "github:vercel-labs/json-render",
-    "article": "article:2026-09-19-4da1b8af",
-    "news": "news:2026-09-21-e9f6eadb",
-    "skill": "skill:gaokao-smath-master-yang",
-    "briefing": "briefing:2026-09-21",
-    "audio": "audio:2026-09-21"
+    "github": "github:zhouxiaoka/autoclip",
+    "article": "article:2026-09-20-771ce9bc",
+    "news": "news:2026-09-22-0a7c0559",
+    "skill": "skill:kingdee-mcp-suite",
+    "briefing": "briefing:2026-09-22",
+    "audio": "audio:2026-09-22"
   },
   "policy": {
     "excluded_fields": [
