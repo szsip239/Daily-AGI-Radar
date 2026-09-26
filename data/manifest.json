@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T00:00:00.000Z",
+  "generated_at": "2026-09-27T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 10034,
-    "details.github": 1112,
-    "details.articles": 973,
-    "details.news": 2912,
-    "details.skills": 4692,
-    "briefings": 178,
-    "audio": 167
+    "search": 10092,
+    "details.github": 1126,
+    "details.articles": 979,
+    "details.news": 2917,
+    "details.skills": 4723,
+    "briefings": 179,
+    "audio": 168
   },
   "latest": {
-    "github": "github:strands-agents/harness-sdk",
-    "article": "article:2026-09-21-432e7516",
-    "news": "news:2026-09-25-0a7c0559",
-    "skill": "skill:a-stock-quote",
-    "briefing": "briefing:2026-09-25",
-    "audio": "audio:2026-09-25"
+    "github": "github:tobi/disktree",
+    "article": "article:2026-09-25-17f5a6cc",
+    "news": "news:2026-09-27-7db15b24",
+    "skill": "skill:autoxianyu",
+    "briefing": "briefing:2026-09-27",
+    "audio": "audio:2026-09-27"
   },
   "policy": {
     "excluded_fields": [
