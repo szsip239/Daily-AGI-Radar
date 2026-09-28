@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T00:00:00.000Z",
+  "generated_at": "2026-09-29T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 10132,
-    "details.github": 1136,
+    "search": 10205,
+    "details.github": 1145,
     "details.articles": 981,
-    "details.news": 2921,
-    "details.skills": 4745,
-    "briefings": 180,
-    "audio": 169
+    "details.news": 2942,
+    "details.skills": 4786,
+    "briefings": 181,
+    "audio": 170
   },
   "latest": {
-    "github": "github:willfaust/Madeira",
+    "github": "github:togg53192-cmd/jailbreaks",
     "article": "article:2026-09-26-f3e0b7bd",
-    "news": "news:2026-09-28-5b38d424",
-    "skill": "skill:aliyun-video2text",
-    "briefing": "briefing:2026-09-28",
-    "audio": "audio:2026-09-28"
+    "news": "news:2026-09-29-5b38d424",
+    "skill": "skill:context-memory-pro",
+    "briefing": "briefing:2026-09-29",
+    "audio": "audio:2026-09-29"
   },
   "policy": {
     "excluded_fields": [
