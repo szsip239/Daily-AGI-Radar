@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T00:00:00.000Z",
+  "generated_at": "2026-09-30T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 10205,
-    "details.github": 1145,
+    "search": 10282,
+    "details.github": 1153,
     "details.articles": 981,
-    "details.news": 2942,
-    "details.skills": 4786,
-    "briefings": 181,
+    "details.news": 2963,
+    "details.skills": 4833,
+    "briefings": 182,
     "audio": 170
   },
   "latest": {
-    "github": "github:togg53192-cmd/jailbreaks",
+    "github": "github:yetone/magpie",
     "article": "article:2026-09-26-f3e0b7bd",
-    "news": "news:2026-09-29-5b38d424",
-    "skill": "skill:context-memory-pro",
-    "briefing": "briefing:2026-09-29",
+    "news": "news:2026-09-30-5b38d424",
+    "skill": "skill:catering-goal-management",
+    "briefing": "briefing:2026-09-30",
     "audio": "audio:2026-09-29"
   },
   "policy": {
