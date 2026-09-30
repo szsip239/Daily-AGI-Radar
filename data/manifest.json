@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T00:00:00.000Z",
+  "generated_at": "2026-10-01T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 10282,
-    "details.github": 1153,
+    "search": 10373,
+    "details.github": 1160,
     "details.articles": 981,
-    "details.news": 2963,
-    "details.skills": 4833,
-    "briefings": 182,
+    "details.news": 2985,
+    "details.skills": 4894,
+    "briefings": 183,
     "audio": 170
   },
   "latest": {
-    "github": "github:yetone/magpie",
+    "github": "github:shihabal3amri/DiPlay",
     "article": "article:2026-09-26-f3e0b7bd",
-    "news": "news:2026-09-30-5b38d424",
-    "skill": "skill:catering-goal-management",
-    "briefing": "briefing:2026-09-30",
+    "news": "news:2026-10-01-5b38d424",
+    "skill": "skill:elon-musk-perspective",
+    "briefing": "briefing:2026-10-01",
     "audio": "audio:2026-09-29"
   },
   "policy": {
