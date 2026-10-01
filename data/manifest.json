@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T00:00:00.000Z",
+  "generated_at": "2026-10-02T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 10373,
-    "details.github": 1160,
+    "search": 10418,
+    "details.github": 1168,
     "details.articles": 981,
-    "details.news": 2985,
-    "details.skills": 4894,
-    "briefings": 183,
-    "audio": 170
+    "details.news": 2987,
+    "details.skills": 4927,
+    "briefings": 184,
+    "audio": 171
   },
   "latest": {
-    "github": "github:shihabal3amri/DiPlay",
+    "github": "github:tile-ai/tilelang",
     "article": "article:2026-09-26-f3e0b7bd",
-    "news": "news:2026-10-01-5b38d424",
-    "skill": "skill:elon-musk-perspective",
-    "briefing": "briefing:2026-10-01",
-    "audio": "audio:2026-09-29"
+    "news": "news:2026-10-02-b0fef825",
+    "skill": "skill:xiaozhi-physics-error-dna",
+    "briefing": "briefing:2026-10-02",
+    "audio": "audio:2026-10-02"
   },
   "policy": {
     "excluded_fields": [
