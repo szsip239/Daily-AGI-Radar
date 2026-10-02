@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T00:00:00.000Z",
+  "generated_at": "2026-10-03T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 10418,
-    "details.github": 1168,
+    "search": 10470,
+    "details.github": 1176,
     "details.articles": 981,
     "details.news": 2987,
-    "details.skills": 4927,
-    "briefings": 184,
-    "audio": 171
+    "details.skills": 4969,
+    "briefings": 185,
+    "audio": 172
   },
   "latest": {
-    "github": "github:tile-ai/tilelang",
+    "github": "github:tester-army/e2e",
     "article": "article:2026-09-26-f3e0b7bd",
-    "news": "news:2026-10-02-b0fef825",
-    "skill": "skill:xiaozhi-physics-error-dna",
-    "briefing": "briefing:2026-10-02",
-    "audio": "audio:2026-10-02"
+    "news": "news:2026-10-03-ac0376fe",
+    "skill": "skill:tencent-ai-drug-consultant",
+    "briefing": "briefing:2026-10-03",
+    "audio": "audio:2026-10-03"
   },
   "policy": {
     "excluded_fields": [
