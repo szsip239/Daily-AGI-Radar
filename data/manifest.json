@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T00:00:00.000Z",
+  "generated_at": "2026-10-04T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 10470,
-    "details.github": 1176,
+    "search": 10520,
+    "details.github": 1179,
     "details.articles": 981,
     "details.news": 2987,
-    "details.skills": 4969,
-    "briefings": 185,
-    "audio": 172
+    "details.skills": 5014,
+    "briefings": 186,
+    "audio": 173
   },
   "latest": {
-    "github": "github:tester-army/e2e",
+    "github": "github:nanaism/yomiyasu",
     "article": "article:2026-09-26-f3e0b7bd",
     "news": "news:2026-10-03-ac0376fe",
-    "skill": "skill:tencent-ai-drug-consultant",
-    "briefing": "briefing:2026-10-03",
-    "audio": "audio:2026-10-03"
+    "skill": "skill:email-master-engicool",
+    "briefing": "briefing:2026-10-04",
+    "audio": "audio:2026-10-04"
   },
   "policy": {
     "excluded_fields": [
