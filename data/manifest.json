@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04T00:00:00.000Z",
+  "generated_at": "2026-10-07T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 10520,
-    "details.github": 1179,
+    "search": 10580,
+    "details.github": 1203,
     "details.articles": 981,
     "details.news": 2987,
-    "details.skills": 5014,
-    "briefings": 186,
-    "audio": 173
+    "details.skills": 5048,
+    "briefings": 187,
+    "audio": 174
   },
   "latest": {
-    "github": "github:nanaism/yomiyasu",
+    "github": "github:storytold/vectorcraft",
     "article": "article:2026-09-26-f3e0b7bd",
-    "news": "news:2026-10-03-ac0376fe",
-    "skill": "skill:email-master-engicool",
-    "briefing": "briefing:2026-10-04",
-    "audio": "audio:2026-10-04"
+    "news": "news:2026-10-06-ac0376fe",
+    "skill": "skill:xiaozhi-cornell-notes",
+    "briefing": "briefing:2026-10-07",
+    "audio": "audio:2026-10-07"
   },
   "policy": {
     "excluded_fields": [
