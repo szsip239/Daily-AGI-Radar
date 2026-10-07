@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T00:00:00.000Z",
+  "generated_at": "2026-10-08T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 10580,
-    "details.github": 1203,
+    "search": 10675,
+    "details.github": 1206,
     "details.articles": 981,
     "details.news": 2987,
-    "details.skills": 5048,
-    "briefings": 187,
-    "audio": 174
+    "details.skills": 5138,
+    "briefings": 188,
+    "audio": 175
   },
   "latest": {
-    "github": "github:storytold/vectorcraft",
+    "github": "github:storytold/effectcraft",
     "article": "article:2026-09-26-f3e0b7bd",
-    "news": "news:2026-10-06-ac0376fe",
-    "skill": "skill:xiaozhi-cornell-notes",
-    "briefing": "briefing:2026-10-07",
-    "audio": "audio:2026-10-07"
+    "news": "news:2026-10-03-b0fef825",
+    "skill": "skill:survey-generator",
+    "briefing": "briefing:2026-10-08",
+    "audio": "audio:2026-10-08"
   },
   "policy": {
     "excluded_fields": [
