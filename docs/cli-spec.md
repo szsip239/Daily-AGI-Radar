@@ -2,7 +2,7 @@
 
 This document is the MVP implementation contract for `agi-radar`, the Daily AGI Radar command-line interface.
 
-It records command behavior, JSON output, caching, submission handling, and test expectations. Product decisions live in `CONTEXT.md` and `docs/adr/*.md`; this file turns those decisions into implementable CLI contracts.
+It records command behavior, JSON output, caching, submission handling, and test expectations. Domain vocabulary lives in `GLOSSARY.md`; product decisions live in `docs/adr/*.md`; this file turns those decisions into implementable CLI contracts.
 
 ## Scope
 
@@ -500,3 +500,37 @@ Workflow tests:
 - duplicate `submit` returns `duplicate_submission`.
 
 Installed-command tests should invoke the built binary through subprocess, not only internal module imports.
+
+<a id="glossary-move-Daily-AGI-Radar-0"></a>
+
+## 提交与展示协议：原领域文档补充
+
+## Example dialogue
+
+> **Dev:** "Can a Submitter recommend a GitHub project into Daily AGI Radar?"
+> **Domain expert:** "Yes, through `agi-radar submit github ...`. It creates a Submission for review, not a published Signal."
+
+## Flagged ambiguities
+
+- On GitHub project signals, `来源` means **Board Source** and may hold several values; on other signal types it remains the single-valued trigger mode.
+- A **Normalized Repository Key** is only a comparison key; published identifiers keep the casing GitHub itself uses.
+- Published feeds are read-only; `submit` creates review candidates and does not write directly to public feeds.
+- Public submissions are carried by GitHub Issue Forms before any accepted-submission or feed write.
+- Public submission forms should require only the submitted URL from the submitter; kind is determined by the CLI subcommand.
+- Public submission issues use normalized titles such as `[github] owner/repo` and `[skill] <skillhub slug or title>`.
+- Public submission issues include a machine-readable JSON payload such as `{ "kind": "github", "url": "..." }`.
+- `submit` works without a GitHub token by returning a prefilled issue URL.
+- `submit` may create the GitHub issue directly when a GitHub token is configured.
+- Public submissions accept only GitHub projects and SkillHub skills in the first version.
+- Skill submissions must come from `skillhub.cn`.
+- Article and news submissions are intentionally not accepted in the first version.
+- `submit` local validation is intentionally shallow: URL type checks and cached-feed duplicate detection only.
+- Duplicate public submissions are rejected; `submit` does not provide a force option.
+- Manual reasons, tags, and metadata are not required from submitters; downstream agent and review workflows can enrich and label submissions.
+- Third-party article and news signals publish summaries and source links in the first version, not newly fetched full text.
+- Public identifiers use **Signal ID** values, not internal Feishu identifiers.
+- Temporary search result indexes such as `[1]` are display-only and are not part of the CLI command contract.
+- The **Raw Feed** is the primary machine source; the **Pages Site** is a browsing surface and fallback mirror.
+- The **Search Index** is the default entry point for cross-type search.
+- The **Search Index** is a projection for candidate retrieval, while **Detail Feed** files provide the full fields returned by default search results and detail lookup.
+- Public date filtering uses **Signal Date** values in Asia/Shanghai natural days.
