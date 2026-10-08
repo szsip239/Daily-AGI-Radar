@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 10675,
-    "details.github": 1206,
-    "details.articles": 981,
-    "details.news": 2987,
-    "details.skills": 5138,
+    "search": 10749,
+    "details.github": 1208,
+    "details.articles": 989,
+    "details.news": 3013,
+    "details.skills": 5177,
     "briefings": 188,
-    "audio": 175
+    "audio": 174
   },
   "latest": {
-    "github": "github:storytold/effectcraft",
-    "article": "article:2026-09-26-f3e0b7bd",
-    "news": "news:2026-10-03-b0fef825",
-    "skill": "skill:survey-generator",
+    "github": "github:storytold/pdfcraft",
+    "article": "article:2026-10-07-10675f8e",
+    "news": "news:2026-10-08-6c0a8c39",
+    "skill": "skill:amap-qq9349540",
     "briefing": "briefing:2026-10-08",
-    "audio": "audio:2026-10-08"
+    "audio": "audio:2026-10-07"
   },
   "policy": {
     "excluded_fields": [
