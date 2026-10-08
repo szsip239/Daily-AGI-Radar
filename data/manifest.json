@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T00:00:00.000Z",
+  "generated_at": "2026-10-09T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 10749,
-    "details.github": 1208,
+    "search": 10815,
+    "details.github": 1212,
     "details.articles": 989,
     "details.news": 3013,
-    "details.skills": 5177,
-    "briefings": 188,
-    "audio": 174
+    "details.skills": 5237,
+    "briefings": 189,
+    "audio": 175
   },
   "latest": {
-    "github": "github:storytold/pdfcraft",
+    "github": "github:shader-effects-inc/shaders",
     "article": "article:2026-10-07-10675f8e",
-    "news": "news:2026-10-08-6c0a8c39",
-    "skill": "skill:amap-qq9349540",
-    "briefing": "briefing:2026-10-08",
-    "audio": "audio:2026-10-07"
+    "news": "news:2026-10-09-f4536590",
+    "skill": "skill:xiaozhi-weekly-review",
+    "briefing": "briefing:2026-10-09",
+    "audio": "audio:2026-10-09"
   },
   "policy": {
     "excluded_fields": [
