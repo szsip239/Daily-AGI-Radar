@@ -33,13 +33,13 @@
     }
   },
   "counts": {
-    "search": 10815,
+    "search": 10816,
     "details.github": 1212,
     "details.articles": 989,
     "details.news": 3013,
     "details.skills": 5237,
     "briefings": 189,
-    "audio": 175
+    "audio": 176
   },
   "latest": {
     "github": "github:shader-effects-inc/shaders",
