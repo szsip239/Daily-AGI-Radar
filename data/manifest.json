@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T00:00:00.000Z",
+  "generated_at": "2026-10-11T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,21 +33,21 @@
     }
   },
   "counts": {
-    "search": 10911,
-    "details.github": 1217,
+    "search": 11021,
+    "details.github": 1224,
     "details.articles": 996,
-    "details.news": 3034,
-    "details.skills": 5297,
-    "briefings": 190,
-    "audio": 177
+    "details.news": 3055,
+    "details.skills": 5377,
+    "briefings": 191,
+    "audio": 178
   },
   "latest": {
-    "github": "github:twostraws/SwiftUI-Agent-Skill",
+    "github": "github:zhongerxin/iPhone-use",
     "article": "article:2026-10-08-7c18d7ae",
-    "news": "news:2026-10-10-f4536590",
-    "skill": "skill:restaurant-menu-design-showapi",
-    "briefing": "briefing:2026-10-10",
-    "audio": "audio:2026-10-10"
+    "news": "news:2026-10-11-7580233a",
+    "skill": "skill:douyin-neirong--yanjiu",
+    "briefing": "briefing:2026-10-11",
+    "audio": "audio:2026-10-11"
   },
   "policy": {
     "excluded_fields": [
