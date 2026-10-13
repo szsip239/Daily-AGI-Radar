@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T00:00:00.000Z",
+  "generated_at": "2026-10-14T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 11156,
-    "details.github": 1238,
+    "search": 11231,
+    "details.github": 1241,
     "details.articles": 1013,
-    "details.news": 3077,
-    "details.skills": 5457,
-    "briefings": 192,
+    "details.news": 3098,
+    "details.skills": 5507,
+    "briefings": 193,
     "audio": 179
   },
   "latest": {
-    "github": "github:xtool-org/xtool",
+    "github": "github:shaongitbd/doory",
     "article": "article:2026-10-11-007516cc",
-    "news": "news:2026-10-13-da6787b6",
-    "skill": "skill:douyin-jingpin-zhixi",
-    "briefing": "briefing:2026-10-13",
+    "news": "news:2026-10-14-da6787b6",
+    "skill": "skill:tax-high-tech-deduction",
+    "briefing": "briefing:2026-10-14",
     "audio": "audio:2026-10-13"
   },
   "policy": {
