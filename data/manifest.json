@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T00:00:00.000Z",
+  "generated_at": "2026-10-17T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 11465,
-    "details.github": 1251,
-    "details.articles": 1024,
-    "details.news": 3140,
-    "details.skills": 5676,
-    "briefings": 195,
+    "search": 11560,
+    "details.github": 1256,
+    "details.articles": 1031,
+    "details.news": 3160,
+    "details.skills": 5738,
+    "briefings": 196,
     "audio": 179
   },
   "latest": {
-    "github": "github:lightseekorg/tokenspeed",
-    "article": "article:2026-10-14-67782838",
-    "news": "news:2026-10-16-da6787b6",
-    "skill": "skill:public-youth-psych-expert",
-    "briefing": "briefing:2026-10-16",
+    "github": "github:jub0t/Concat",
+    "article": "article:2026-10-15-eabad943",
+    "news": "news:2026-10-17-fe33427e",
+    "skill": "skill:qidianrec",
+    "briefing": "briefing:2026-10-17",
     "audio": "audio:2026-10-13"
   },
   "policy": {
