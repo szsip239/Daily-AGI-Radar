@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T00:00:00.000Z",
+  "generated_at": "2026-10-19T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 11607,
-    "details.github": 1263,
+    "search": 11664,
+    "details.github": 1265,
     "details.articles": 1031,
     "details.news": 3161,
-    "details.skills": 5776,
-    "briefings": 197,
+    "details.skills": 5830,
+    "briefings": 198,
     "audio": 179
   },
   "latest": {
-    "github": "github:tangency-labs/solidcraft",
+    "github": "github:rohit267/net-merge",
     "article": "article:2026-10-15-eabad943",
-    "news": "news:2026-10-18-fe33427e",
-    "skill": "skill:software-architecture-diagram-generator-showapi",
-    "briefing": "briefing:2026-10-18",
+    "news": "news:2026-10-19-fe33427e",
+    "skill": "skill:efficiency-booster",
+    "briefing": "briefing:2026-10-19",
     "audio": "audio:2026-10-13"
   },
   "policy": {
