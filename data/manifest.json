@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T00:00:00.000Z",
+  "generated_at": "2026-10-18T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 11560,
-    "details.github": 1256,
+    "search": 11607,
+    "details.github": 1263,
     "details.articles": 1031,
-    "details.news": 3160,
-    "details.skills": 5738,
-    "briefings": 196,
+    "details.news": 3161,
+    "details.skills": 5776,
+    "briefings": 197,
     "audio": 179
   },
   "latest": {
-    "github": "github:jub0t/Concat",
+    "github": "github:tangency-labs/solidcraft",
     "article": "article:2026-10-15-eabad943",
-    "news": "news:2026-10-17-fe33427e",
-    "skill": "skill:qidianrec",
-    "briefing": "briefing:2026-10-17",
+    "news": "news:2026-10-18-fe33427e",
+    "skill": "skill:software-architecture-diagram-generator-showapi",
+    "briefing": "briefing:2026-10-18",
     "audio": "audio:2026-10-13"
   },
   "policy": {
