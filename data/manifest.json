@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T00:00:00.000Z",
+  "generated_at": "2026-10-20T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 11664,
-    "details.github": 1265,
-    "details.articles": 1031,
-    "details.news": 3161,
-    "details.skills": 5830,
-    "briefings": 198,
+    "search": 11749,
+    "details.github": 1282,
+    "details.articles": 1041,
+    "details.news": 3182,
+    "details.skills": 5866,
+    "briefings": 199,
     "audio": 179
   },
   "latest": {
-    "github": "github:rohit267/net-merge",
-    "article": "article:2026-10-15-eabad943",
-    "news": "news:2026-10-19-fe33427e",
-    "skill": "skill:efficiency-booster",
-    "briefing": "briefing:2026-10-19",
+    "github": "github:obsidianmd/pele",
+    "article": "article:2026-10-17-098d4c93",
+    "news": "news:2026-10-20-fe33427e",
+    "skill": "skill:mahjong-helper-skill",
+    "briefing": "briefing:2026-10-20",
     "audio": "audio:2026-10-13"
   },
   "policy": {
