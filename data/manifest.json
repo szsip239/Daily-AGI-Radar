@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T00:00:00.000Z",
+  "generated_at": "2026-10-21T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 11749,
-    "details.github": 1282,
-    "details.articles": 1041,
-    "details.news": 3182,
-    "details.skills": 5866,
-    "briefings": 199,
+    "search": 11858,
+    "details.github": 1292,
+    "details.articles": 1052,
+    "details.news": 3202,
+    "details.skills": 5933,
+    "briefings": 200,
     "audio": 179
   },
   "latest": {
-    "github": "github:obsidianmd/pele",
-    "article": "article:2026-10-17-098d4c93",
-    "news": "news:2026-10-20-fe33427e",
-    "skill": "skill:mahjong-helper-skill",
-    "briefing": "briefing:2026-10-20",
+    "github": "github:xiaoyang111222/cn-math-taxonomy",
+    "article": "article:2026-10-19-a582b4e7",
+    "news": "news:2026-10-21-62256787",
+    "skill": "skill:music-discovery-app",
+    "briefing": "briefing:2026-10-21",
     "audio": "audio:2026-10-13"
   },
   "policy": {
