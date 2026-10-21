@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T00:00:00.000Z",
+  "generated_at": "2026-10-22T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 11858,
-    "details.github": 1292,
-    "details.articles": 1052,
-    "details.news": 3202,
-    "details.skills": 5933,
-    "briefings": 200,
+    "search": 11948,
+    "details.github": 1297,
+    "details.articles": 1059,
+    "details.news": 3223,
+    "details.skills": 5989,
+    "briefings": 201,
     "audio": 179
   },
   "latest": {
-    "github": "github:xiaoyang111222/cn-math-taxonomy",
-    "article": "article:2026-10-19-a582b4e7",
-    "news": "news:2026-10-21-62256787",
-    "skill": "skill:music-discovery-app",
-    "briefing": "briefing:2026-10-21",
+    "github": "github:wshobson/agents",
+    "article": "article:2026-10-20-d9c61cc1",
+    "news": "news:2026-10-22-17d6db87",
+    "skill": "skill:sales-pro",
+    "briefing": "briefing:2026-10-22",
     "audio": "audio:2026-10-13"
   },
   "policy": {
