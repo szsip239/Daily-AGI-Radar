@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T00:00:00.000Z",
+  "generated_at": "2026-10-23T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 11948,
-    "details.github": 1297,
-    "details.articles": 1059,
-    "details.news": 3223,
-    "details.skills": 5989,
-    "briefings": 201,
+    "search": 12039,
+    "details.github": 1309,
+    "details.articles": 1061,
+    "details.news": 3244,
+    "details.skills": 6044,
+    "briefings": 202,
     "audio": 179
   },
   "latest": {
-    "github": "github:wshobson/agents",
-    "article": "article:2026-10-20-d9c61cc1",
-    "news": "news:2026-10-22-17d6db87",
-    "skill": "skill:sales-pro",
-    "briefing": "briefing:2026-10-22",
+    "github": "github:yihui-dev/awesome-opus5-5-videos",
+    "article": "article:2026-10-21-0c46ac4a",
+    "news": "news:2026-10-23-17d6db87",
+    "skill": "skill:project-flow-manager",
+    "briefing": "briefing:2026-10-23",
     "audio": "audio:2026-10-13"
   },
   "policy": {
