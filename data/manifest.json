@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T00:00:00.000Z",
+  "generated_at": "2026-10-24T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 12039,
-    "details.github": 1309,
+    "search": 12165,
+    "details.github": 1315,
     "details.articles": 1061,
-    "details.news": 3244,
-    "details.skills": 6044,
-    "briefings": 202,
+    "details.news": 3264,
+    "details.skills": 6143,
+    "briefings": 203,
     "audio": 179
   },
   "latest": {
-    "github": "github:yihui-dev/awesome-opus5-5-videos",
+    "github": "github:nikopueringer/CorridorKey2.0",
     "article": "article:2026-10-21-0c46ac4a",
-    "news": "news:2026-10-23-17d6db87",
-    "skill": "skill:project-flow-manager",
-    "briefing": "briefing:2026-10-23",
+    "news": "news:2026-10-24-ce42b451",
+    "skill": "skill:chengeng-light-consultation",
+    "briefing": "briefing:2026-10-24",
     "audio": "audio:2026-10-13"
   },
   "policy": {
