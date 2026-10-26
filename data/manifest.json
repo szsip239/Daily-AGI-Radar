@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T00:00:00.000Z",
+  "generated_at": "2026-10-27T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 12349,
-    "details.github": 1333,
+    "search": 12427,
+    "details.github": 1343,
     "details.articles": 1061,
-    "details.news": 3264,
-    "details.skills": 6308,
-    "briefings": 204,
+    "details.news": 3285,
+    "details.skills": 6354,
+    "briefings": 205,
     "audio": 179
   },
   "latest": {
-    "github": "github:yeqv111/mccarbon",
+    "github": "github:rddmwmddr/android-ad-cleaner",
     "article": "article:2026-10-21-0c46ac4a",
-    "news": "news:2026-10-26-9e8ba108",
-    "skill": "skill:sales-analyzer",
-    "briefing": "briefing:2026-10-26",
+    "news": "news:2026-10-27-0795e1e3",
+    "skill": "skill:ai-kujiale-design",
+    "briefing": "briefing:2026-10-27",
     "audio": "audio:2026-10-13"
   },
   "policy": {
