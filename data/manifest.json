@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T00:00:00.000Z",
+  "generated_at": "2026-10-26T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 12165,
-    "details.github": 1315,
+    "search": 12349,
+    "details.github": 1333,
     "details.articles": 1061,
     "details.news": 3264,
-    "details.skills": 6143,
-    "briefings": 203,
+    "details.skills": 6308,
+    "briefings": 204,
     "audio": 179
   },
   "latest": {
-    "github": "github:nikopueringer/CorridorKey2.0",
+    "github": "github:yeqv111/mccarbon",
     "article": "article:2026-10-21-0c46ac4a",
-    "news": "news:2026-10-24-ce42b451",
-    "skill": "skill:chengeng-light-consultation",
-    "briefing": "briefing:2026-10-24",
+    "news": "news:2026-10-26-9e8ba108",
+    "skill": "skill:sales-analyzer",
+    "briefing": "briefing:2026-10-26",
     "audio": "audio:2026-10-13"
   },
   "policy": {
