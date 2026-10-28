@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T00:00:00.000Z",
+  "generated_at": "2026-10-29T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 12427,
-    "details.github": 1343,
+    "search": 12627,
+    "details.github": 1350,
     "details.articles": 1061,
-    "details.news": 3285,
-    "details.skills": 6354,
-    "briefings": 205,
+    "details.news": 3327,
+    "details.skills": 6504,
+    "briefings": 206,
     "audio": 179
   },
   "latest": {
-    "github": "github:rddmwmddr/android-ad-cleaner",
+    "github": "github:xiaolai/the-craft-of-selfteaching",
     "article": "article:2026-10-21-0c46ac4a",
-    "news": "news:2026-10-27-0795e1e3",
-    "skill": "skill:ai-kujiale-design",
-    "briefing": "briefing:2026-10-27",
+    "news": "news:2026-10-29-0795e1e3",
+    "skill": "skill:invoice-parser",
+    "briefing": "briefing:2026-10-29",
     "audio": "audio:2026-10-13"
   },
   "policy": {
