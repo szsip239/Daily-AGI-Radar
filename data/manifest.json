@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T00:00:00.000Z",
+  "generated_at": "2026-11-02T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 12831,
-    "details.github": 1370,
+    "search": 12916,
+    "details.github": 1379,
     "details.articles": 1061,
     "details.news": 3369,
-    "details.skills": 6645,
-    "briefings": 207,
+    "details.skills": 6720,
+    "briefings": 208,
     "audio": 179
   },
   "latest": {
-    "github": "github:wangzan101/Mika",
+    "github": "github:patch-gg/pixelfx",
     "article": "article:2026-10-21-0c46ac4a",
-    "news": "news:2026-11-01-0795e1e3",
-    "skill": "skill:mock-exam-generator-pro",
-    "briefing": "briefing:2026-11-01",
+    "news": "news:2026-11-02-c76d076a",
+    "skill": "skill:yang-math",
+    "briefing": "briefing:2026-11-02",
     "audio": "audio:2026-10-13"
   },
   "policy": {
