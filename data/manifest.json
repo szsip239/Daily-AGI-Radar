@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T00:00:00.000Z",
+  "generated_at": "2026-11-07T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 13272,
-    "details.github": 1407,
+    "search": 13387,
+    "details.github": 1420,
     "details.articles": 1061,
-    "details.news": 3454,
-    "details.skills": 6961,
-    "briefings": 210,
+    "details.news": 3476,
+    "details.skills": 7040,
+    "briefings": 211,
     "audio": 179
   },
   "latest": {
-    "github": "github:wquguru/cicada",
+    "github": "github:zortos293/Lichii",
     "article": "article:2026-10-21-0c46ac4a",
-    "news": "news:2026-11-06-c76d076a",
-    "skill": "skill:sglk666",
-    "briefing": "briefing:2026-11-06",
+    "news": "news:2026-11-07-057ba6c2",
+    "skill": "skill:music-video-director",
+    "briefing": "briefing:2026-11-07",
     "audio": "audio:2026-10-13"
   },
   "policy": {
