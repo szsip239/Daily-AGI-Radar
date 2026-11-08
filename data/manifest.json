@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T00:00:00.000Z",
+  "generated_at": "2026-11-09T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 13428,
-    "details.github": 1430,
+    "search": 13482,
+    "details.github": 1439,
     "details.articles": 1061,
     "details.news": 3476,
-    "details.skills": 7070,
-    "briefings": 212,
+    "details.skills": 7114,
+    "briefings": 213,
     "audio": 179
   },
   "latest": {
-    "github": "github:vAPI-Network/vapi-network",
+    "github": "github:voyager-so/vork",
     "article": "article:2026-10-21-0c46ac4a",
-    "news": "news:2026-11-08-057ba6c2",
-    "skill": "skill:reverse-engineering-fusion",
-    "briefing": "briefing:2026-11-08",
+    "news": "news:2026-11-09-fc3af3d1",
+    "skill": "skill:restaurant-promo-designer",
+    "briefing": "briefing:2026-11-09",
     "audio": "audio:2026-10-13"
   },
   "policy": {
