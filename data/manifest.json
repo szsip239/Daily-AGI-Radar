@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T00:00:00.000Z",
+  "generated_at": "2026-11-12T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 13668,
-    "details.github": 1457,
+    "search": 13759,
+    "details.github": 1465,
     "details.articles": 1061,
-    "details.news": 3520,
-    "details.skills": 7237,
-    "briefings": 214,
+    "details.news": 3541,
+    "details.skills": 7298,
+    "briefings": 215,
     "audio": 179
   },
   "latest": {
-    "github": "github:we-promise/sure",
+    "github": "github:herdrdev/herdr",
     "article": "article:2026-10-21-0c46ac4a",
-    "news": "news:2026-11-11-4a5fd0f2",
-    "skill": "skill:doc-processing-team",
-    "briefing": "briefing:2026-11-11",
+    "news": "news:2026-11-12-4a5fd0f2",
+    "skill": "skill:bug-fix-farming",
+    "briefing": "briefing:2026-11-12",
     "audio": "audio:2026-10-13"
   },
   "policy": {
