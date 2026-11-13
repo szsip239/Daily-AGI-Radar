@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T00:00:00.000Z",
+  "generated_at": "2026-11-14T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 13864,
-    "details.github": 1478,
+    "search": 13943,
+    "details.github": 1487,
     "details.articles": 1061,
-    "details.news": 3562,
-    "details.skills": 7368,
-    "briefings": 216,
+    "details.news": 3583,
+    "details.skills": 7416,
+    "briefings": 217,
     "audio": 179
   },
   "latest": {
-    "github": "github:wzdnzd/aggregator",
+    "github": "github:vercel-labs/ui",
     "article": "article:2026-10-21-0c46ac4a",
-    "news": "news:2026-11-13-5642d832",
-    "skill": "skill:xiaozhi-physics-concept-intuition",
-    "briefing": "briefing:2026-11-13",
+    "news": "news:2026-11-14-5642d832",
+    "skill": "skill:douyin-jingpinzhixiqi",
+    "briefing": "briefing:2026-11-14",
     "audio": "audio:2026-10-13"
   },
   "policy": {
