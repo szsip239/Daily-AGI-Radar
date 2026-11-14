@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T00:00:00.000Z",
+  "generated_at": "2026-11-15T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 13943,
-    "details.github": 1487,
+    "search": 13967,
+    "details.github": 1494,
     "details.articles": 1061,
-    "details.news": 3583,
-    "details.skills": 7416,
-    "briefings": 217,
+    "details.news": 3584,
+    "details.skills": 7431,
+    "briefings": 218,
     "audio": 179
   },
   "latest": {
-    "github": "github:vercel-labs/ui",
+    "github": "github:zxsos/HGhubX",
     "article": "article:2026-10-21-0c46ac4a",
-    "news": "news:2026-11-14-5642d832",
-    "skill": "skill:douyin-jingpinzhixiqi",
-    "briefing": "briefing:2026-11-14",
+    "news": "news:2026-11-15-5642d832",
+    "skill": "skill:liuye-legal-intelligent-search",
+    "briefing": "briefing:2026-11-15",
     "audio": "audio:2026-10-13"
   },
   "policy": {
