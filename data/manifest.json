@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T00:00:00.000Z",
+  "generated_at": "2026-11-16T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 13967,
-    "details.github": 1494,
+    "search": 14014,
+    "details.github": 1502,
     "details.articles": 1061,
     "details.news": 3584,
-    "details.skills": 7431,
-    "briefings": 218,
+    "details.skills": 7469,
+    "briefings": 219,
     "audio": 179
   },
   "latest": {
-    "github": "github:zxsos/HGhubX",
+    "github": "github:libracoder/kiri",
     "article": "article:2026-10-21-0c46ac4a",
-    "news": "news:2026-11-15-5642d832",
-    "skill": "skill:liuye-legal-intelligent-search",
-    "briefing": "briefing:2026-11-15",
+    "news": "news:2026-11-16-5642d832",
+    "skill": "skill:patentmax-hightech",
+    "briefing": "briefing:2026-11-16",
     "audio": "audio:2026-10-13"
   },
   "policy": {
