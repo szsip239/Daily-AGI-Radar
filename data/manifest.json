@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T00:00:00.000Z",
+  "generated_at": "2026-11-19T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 14183,
-    "details.github": 1512,
+    "search": 14291,
+    "details.github": 1524,
     "details.articles": 1061,
-    "details.news": 3621,
-    "details.skills": 7590,
-    "briefings": 220,
+    "details.news": 3642,
+    "details.skills": 7664,
+    "briefings": 221,
     "audio": 179
   },
   "latest": {
-    "github": "github:krisgfx9/Wireless-Device-Battery-Monitor",
+    "github": "github:solidjs/solid",
     "article": "article:2026-10-21-0c46ac4a",
-    "news": "news:2026-11-18-96de004a",
-    "skill": "skill:procurement-intent-insight-officer",
-    "briefing": "briefing:2026-11-18",
+    "news": "news:2026-11-19-96de004a",
+    "skill": "skill:feishu-bitable-butler",
+    "briefing": "briefing:2026-11-19",
     "audio": "audio:2026-10-13"
   },
   "policy": {
