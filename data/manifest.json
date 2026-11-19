@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T00:00:00.000Z",
+  "generated_at": "2026-11-20T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 14291,
-    "details.github": 1524,
+    "search": 14384,
+    "details.github": 1531,
     "details.articles": 1061,
-    "details.news": 3642,
-    "details.skills": 7664,
-    "briefings": 221,
+    "details.news": 3663,
+    "details.skills": 7728,
+    "briefings": 222,
     "audio": 179
   },
   "latest": {
-    "github": "github:solidjs/solid",
+    "github": "github:zephyr4123/snug",
     "article": "article:2026-10-21-0c46ac4a",
-    "news": "news:2026-11-19-96de004a",
-    "skill": "skill:feishu-bitable-butler",
-    "briefing": "briefing:2026-11-19",
+    "news": "news:2026-11-20-270b6a43",
+    "skill": "skill:lark-invoice-bot",
+    "briefing": "briefing:2026-11-20",
     "audio": "audio:2026-10-13"
   },
   "policy": {
