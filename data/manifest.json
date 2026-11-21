@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T00:00:00.000Z",
+  "generated_at": "2026-11-22T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 14473,
-    "details.github": 1534,
+    "search": 14533,
+    "details.github": 1538,
     "details.articles": 1061,
     "details.news": 3683,
-    "details.skills": 7793,
-    "briefings": 223,
+    "details.skills": 7848,
+    "briefings": 224,
     "audio": 179
   },
   "latest": {
-    "github": "github:toyxyz/toyxyz_RGBMocap",
+    "github": "github:imxieyi/Kernarium",
     "article": "article:2026-10-21-0c46ac4a",
-    "news": "news:2026-11-21-3af4262a",
-    "skill": "skill:100",
-    "briefing": "briefing:2026-11-21",
+    "news": "news:2026-11-22-3af4262a",
+    "skill": "skill:virtual-singer-mv",
+    "briefing": "briefing:2026-11-22",
     "audio": "audio:2026-10-13"
   },
   "policy": {
