@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T00:00:00.000Z",
+  "generated_at": "2026-11-23T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 14533,
-    "details.github": 1538,
+    "search": 14609,
+    "details.github": 1546,
     "details.articles": 1061,
-    "details.news": 3683,
-    "details.skills": 7848,
-    "briefings": 224,
+    "details.news": 3684,
+    "details.skills": 7914,
+    "briefings": 225,
     "audio": 179
   },
   "latest": {
-    "github": "github:imxieyi/Kernarium",
+    "github": "github:omonkeyz/xbox-emulator",
     "article": "article:2026-10-21-0c46ac4a",
-    "news": "news:2026-11-22-3af4262a",
-    "skill": "skill:virtual-singer-mv",
-    "briefing": "briefing:2026-11-22",
+    "news": "news:2026-11-23-ddb7b7b3",
+    "skill": "skill:patentmax-high-value-package",
+    "briefing": "briefing:2026-11-23",
     "audio": "audio:2026-10-13"
   },
   "policy": {
