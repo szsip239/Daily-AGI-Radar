@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T00:00:00.000Z",
+  "generated_at": "2026-11-24T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 14609,
-    "details.github": 1546,
+    "search": 14691,
+    "details.github": 1553,
     "details.articles": 1061,
-    "details.news": 3684,
-    "details.skills": 7914,
-    "briefings": 225,
+    "details.news": 3706,
+    "details.skills": 7966,
+    "briefings": 226,
     "audio": 179
   },
   "latest": {
-    "github": "github:omonkeyz/xbox-emulator",
+    "github": "github:pierridotite/mobile-agent-testers",
     "article": "article:2026-10-21-0c46ac4a",
-    "news": "news:2026-11-23-ddb7b7b3",
-    "skill": "skill:patentmax-high-value-package",
-    "briefing": "briefing:2026-11-23",
+    "news": "news:2026-11-24-c4ad1cf9",
+    "skill": "skill:gaokao-volunteer-advisor-new",
+    "briefing": "briefing:2026-11-24",
     "audio": "audio:2026-10-13"
   },
   "policy": {
