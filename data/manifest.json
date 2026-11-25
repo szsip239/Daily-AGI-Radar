@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T00:00:00.000Z",
+  "generated_at": "2026-11-26T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -33,20 +33,20 @@
     }
   },
   "counts": {
-    "search": 14788,
-    "details.github": 1562,
-    "details.articles": 1061,
-    "details.news": 3727,
-    "details.skills": 8032,
-    "briefings": 227,
+    "search": 14907,
+    "details.github": 1566,
+    "details.articles": 1084,
+    "details.news": 3748,
+    "details.skills": 8102,
+    "briefings": 228,
     "audio": 179
   },
   "latest": {
-    "github": "github:zed-industries/gpui",
-    "article": "article:2026-10-21-0c46ac4a",
-    "news": "news:2026-11-25-c4ad1cf9",
-    "skill": "skill:tdxlhxgkb",
-    "briefing": "briefing:2026-11-25",
+    "github": "github:xcl-dev/xcl",
+    "article": "article:2026-11-24-87aadb46",
+    "news": "news:2026-11-26-c4ad1cf9",
+    "skill": "skill:train-ticket-query",
+    "briefing": "briefing:2026-11-26",
     "audio": "audio:2026-10-13"
   },
   "policy": {
