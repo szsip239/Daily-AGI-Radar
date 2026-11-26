@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T00:00:00.000Z",
+  "generated_at": "2026-11-27T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -19,10 +19,6 @@
       "url": "details/news.jsonl",
       "gz_url": "details/news.jsonl.gz"
     },
-    "details.skills": {
-      "url": "details/skills.jsonl",
-      "gz_url": "details/skills.jsonl.gz"
-    },
     "briefings": {
       "url": "briefings.jsonl",
       "gz_url": "briefings.jsonl.gz"
@@ -33,20 +29,18 @@
     }
   },
   "counts": {
-    "search": 14907,
-    "details.github": 1566,
-    "details.articles": 1084,
-    "details.news": 3748,
-    "details.skills": 8102,
-    "briefings": 228,
+    "search": 6838,
+    "details.github": 1571,
+    "details.articles": 1089,
+    "details.news": 3770,
+    "briefings": 229,
     "audio": 179
   },
   "latest": {
-    "github": "github:xcl-dev/xcl",
-    "article": "article:2026-11-24-87aadb46",
-    "news": "news:2026-11-26-c4ad1cf9",
-    "skill": "skill:train-ticket-query",
-    "briefing": "briefing:2026-11-26",
+    "github": "github:seanhowarthdev/Roam-Control",
+    "article": "article:2026-11-25-6d46bb71",
+    "news": "news:2026-11-27-27b6d2e3",
+    "briefing": "briefing:2026-11-27",
     "audio": "audio:2026-10-13"
   },
   "policy": {
