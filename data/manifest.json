@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T00:00:00.000Z",
+  "generated_at": "2026-11-28T00:00:00.000Z",
   "repository": "https://github.com/szsip239/Daily-AGI-Radar",
   "feeds": {
     "search": {
@@ -29,18 +29,18 @@
     }
   },
   "counts": {
-    "search": 6838,
-    "details.github": 1571,
-    "details.articles": 1089,
-    "details.news": 3770,
-    "briefings": 229,
+    "search": 6874,
+    "details.github": 1579,
+    "details.articles": 1094,
+    "details.news": 3792,
+    "briefings": 230,
     "audio": 179
   },
   "latest": {
-    "github": "github:seanhowarthdev/Roam-Control",
-    "article": "article:2026-11-25-6d46bb71",
-    "news": "news:2026-11-27-27b6d2e3",
-    "briefing": "briefing:2026-11-27",
+    "github": "github:perixtar/Tech-OA-Interview-Questions",
+    "article": "article:2026-11-26-f2165bc4",
+    "news": "news:2026-11-28-95e05cc1",
+    "briefing": "briefing:2026-11-28",
     "audio": "audio:2026-10-13"
   },
   "policy": {
